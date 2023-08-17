@@ -1,0 +1,158 @@
+:: StoryTitle
+Vellum Shale
+
+
+:: StoryData
+{
+  "ifid": "815570E6-7E69-4848-91EB-9AD915085624",
+  "format": "Harlowe",
+  "format-version": "3.3.6",
+  "start": "Intro",
+  "zoom": 1
+}
+
+
+:: By the authority {"position":"375,175","size":"100,100"}
+<img width="100px" src="https://compendium.fringedrifters.com/storage/UNQ4gPcMwkYZ2MpAeeChaekek1oXrRiRUTi8OEGP.png">
+
+"By the authority of Calson Wight, you are encroaching in private space. Quelch your burners, kips. We got you painted solid under company rails, so nothing greasy."
+
+The thing about most Cove Stalkers you'll encounter is that they're incredibly bored. Despite the fearsome reputation they've garnered over the seasons, they've effectively gone corporate, turning once-lethal artisans of combat into idling guard dogs, propped up by a well-endowed armory.
+
+Left to their own devices, they've become known for a tendency to shake down passing craft, bullying them into handing over loot, supplies, or simply inconveniencing them for their own amusement - all with the knowledge that engagement just means a bit of extra paperwork…and a single railshot will wipe away all witnesses.
+
+For the more combat-ready crews, this severely limits your options for recourse and they know it. At least if they were pirates, you could assume that they'd want to keep your ship intact for requisition, but these guys don't give a fuck.
+
+Parlay is the only path forward…or is it?
+
+DIPLOMACY (click-append:"DIPLOMACY")[ (text-colour:cyan)[Looks like some of you have some friendly affiliations onboard. While Cove Stalkers are normally pretty indiscriminate with their application of coercion, the one thing they do fear is bad blood traveling up the chain to Beshtalan power brokers.
+
+If any of your crew bear Beshtala-Chanko, Dugall Freight, League of Channel, Expatriation Roster, or Mercenary insignias, - with a little coaxing, the Cove Stalkers might be amenable to letting you pass through.
+
+A few of you even have some former Cove Stalkers in tow, which is ultimately a free pass to a peaceful crossing.
+
+After trading banter and a few disparaging remarks directed toward the bulk of drifterdom, some of you are on your way.
+
+But for those who don't have the luxury of influence or camaraderie with these goons, other measures will have to be taken.]]
+
+EVASION (click-append:"EVASION")[ (text-colour:cyan)[If diplomacy isn't your strong suit, perhaps you have a seasoned pilot in the chair. Those that bear the Topography Society, Longhaulers, Expeditionary Society, Slash Patcher, or - best of all - a Saddler Racing League insignia - might have what it takes to outmaneuver this standoff.
+
+If successful, a double-roll and a cyclone dive, will juke your ship into their blind spot.
+
+Even retired Saddler's tend to keep a can of reactor juice in pocket and a dash of sauce on the burners will have you speeding on your way, leaving a scope-jamming shockwave in your wake.]]
+
+BARTER (click-append:"BARTER")[ (text-colour:cyan)[It's perhaps a bit of a longshot, but if a member of the Union of Merchants is in your crew, you can attempt to barter your way through.]]
+
+RETREAT (click-append:"RETREAT")[ (text-colour:cyan)[For the rest of you, or those that couldn't scrounge enough cachet to squeeze through the blockade…you're all forced to retreat, rerouting out of Cove Stalker jurisdiction.]]
+
+THREATEN/AMBUSH (click-append:"THREATEN/AMBUSH")[ (text-colour:cyan)[It appears that a few of you, however, have a more aggressive option that no one else is quipt to attempt.
+
+Several crews have brought with them the confidence of one or more Freight Wars EVA vets, quipt with Kickback Bombshot launchers.
+
+While your pilot keeps the Stalkers preoccupied on the radio line, they silently slip out the airlock and glide between the Stalkers' twin Rackworms, safely out of the firing cone of their railguns.
+
+Once in position you reveal your countermeasure. An easy lob from the bombshot presents an equalizing blow, turning this stickup into a stalemate of mutually assured destruction.
+
+The Stalkers can hear the unhinged desperation in your threat as they realize that what was supposed to be easy pickings has turned into quite a scratchy encounter. They fold their hand, back down, and let you pass.
+
+And finally, only one crew - Seishin of the Void - has got a secret weapon in their cabin. A Roving Terror pirate captain, quipt with a devastating coil gun and the EVA agility of a Halleyforge Jetpack.
+
+There's no need to dabble with threats for this deadly drifter. The flare of their powerful suit-mounted thrusters immediately alerts the Cove Stalkers to the threat…but the encounter is effectively over already.
+
+Too quick a target to paint, the pirate jets past the Rackworms and before the thought to pivot can translate into defensive action, two shots have already been fired from the coil gun, vaporizing the mercs in their seats as their exploding reactors consume their ships.]]
+
+[[continue...->Some fared better]]
+
+
+:: Gathered A Crew {"position":"400,25","size":"100,100"}
+<img width="100px" src="https://compendium.fringedrifters.com/storage/wXtn8rU4d97sAFvTcmB1MaZVg5y4GQO0IfNU7dsl.png">
+
+Over the last few cycles, you've gathered your crew. A lean team of five to tackle the perils that undoubtedly stand between you and this prospective bounty.
+
+For some of you this was an easy task, a well-worn cohort of attuned drifters already in your pouch. For others, new alliances had to be forged - a twitchy endeavor, but smoothed by the promise of loot.
+
+The five of you now stand at the Bench's rack hatch, tools and provisions in tow.
+
+The buzzer blares and the hatch opens, releasing you to lash straps and mount your steed.
+
+Now all that's left is to see how you fare.
+
+[[continue...->Packed Tight]]
+
+
+:: Intro {"position":"100,25","size":"100,100"}
+<img height="100px" src="https://compendium.fringedrifters.com/storage/c3AlmFvFNvxSvplPOoQDoefwLy4dClIzHw4So64L.png">
+
+Welcome, drifters.
+
+A few cycles ago, many of you passed under the hatch of the Sowing Season and had the pleasure of trading chant with Duzi, the Bench's premiere keeper of tall tales.
+
+To recap, Duzi had recently crossed paths with a solo drifter, who was left rattled from his recent quest for an extremely rare and extremely valuable Old World supermaterial called Vellum Shale... (click-append:"Vellum Shale")[(text-colour:navy)[ (Vellum Shale is one of the many ancient artifacts left behind by a previous civilization - a civilization that rose and fell before the Gigarian Dark Ages and the subsequent Chanko Renaissance)]]
+
+The artifacts they left behind were integral to the reintroduction of spaceflight and other technologies, but many we've yet to fully understand still remain scattered across the Occupied Spaces.
+
+[[continue...->Only Survivor]]
+
+
+:: Only Survivor {"position":"250,25","size":"100,100"}
+<img width="100px" src="https://compendium.fringedrifters.com/storage/etcVDn2iQnwMUBUadi21NqmFlxpHt5HFoCh0xwD0.png">
+
+This lone drifter appeared to be his mission's only survivor. In his brief encounter with Duzi, he was reluctant to recount what truly happened, but he left behind the coordinates to the source of the V-Shale: an abandoned Surveyor Station…an Old World exploratory craft.
+
+If the coordinates are true, this could be the tip of all tips. Even a small amount of Vellum Shale would recoup the cost of travel with profits to spare. And the way this drifter talked, there should be enough to fill a whole cargo carriage.
+
+Now, there's not a drifter with fluid still in motion that'd waver over such a prospect and it appears that all of you, after hearing this tale, became ravenous to pinch the pot.
+
+But a quest of this caliber is no solo operation. You need a crew. A close-knit and varied crew, ready to grind through the void and confront the unknown.
+
+[[continue...->Gathered A Crew]]
+
+
+
+:: Packed Tight {"position":"100,175","size":"100,100"}
+<img width="100px" src="https://compendium.fringedrifters.com/storage/5QcFUErO90mEwYp7uDkFri83hAA12zVns57SlUG2.png">
+
+Packed tight into your spacecraft, the course is plotted and the route quickly has you passing through the Faye Cloud - a field of dense gas suspended in space. The gas scrambles all scopes, preventing any communication, tracking, or computer-assisted navigation.
+
+While this seems perilous, seasoned pilots welcome the extra cover the cloud provides. It's a blind flight, but there's comfort in the soft static of the distorted scopes.
+
+You can't see anyone, but if they're out there, they can't see you either.
+
+It's a several-cycle crossing and spirits are high. Anticipation simmers as some of you fantasize about the life changes that will be paved by the forthcoming payload.
+
+But this respite from the vast, shelter-less void is only temporary. As you near the edge of the cloud, subtle tensions begin to simmer and - as is the case more often than not - these subliminal warning bells are not unfounded.
+
+Your ship unceremoniously breaches the cloud. In an instant, the veil is lifted. The blanket of fog falls away and you're now flying exposed, surrounded by swaths of big black emptiness.
+
+As soon as the ship's sensors regain their clarity, a harsh blip abruptly cuts through the silence of the cabin. On the monitor blinks the last thing you want to see: two dots.
+
+[[continue...->Shiver runs]]
+
+
+:: Shiver runs {"position":"225,175","size":"100,100"}
+<img width="100px" src="https://compendium.fringedrifters.com/storage/GIBtam8YcnHWnqC8vJSzxW0zmvME8aszwIbXVj5N.png">
+
+A shiver runs down your collective spines, for you all know the true dynamics of space combat: close enough for the scopes, close enough to strike.
+
+But armed craft are rare…and even if they're pirates, you might have enough range to slip away…so long as they're not brandishing dual outriggers.
+
+A distinctive five-tone signal chimes over the radio. Instantly, you all know what this means: Cove Stalkers.
+
+Their radio sign has become a well-known jingle that drifters have come to fear - because even if they aren't warming up their railguns, they're undoubtedly eager to drag you through some kind of bullshit.
+
+The Cove Stalkers are an infamous mercenary group that cut its teeth partnering with the Dugall Freight Company during the Freight Wars.
+
+They've since become the go-to enforcers for Beshtalan corporations looking to secure their fragile claims on Fringeling space.
+
+A distorted voice rasps over the radio:
+
+[[continue...->By the authority]]
+
+
+:: Some fared better {"position":"500,175","size":"100,100"}
+<img width="400px" src="https://compendium.fringedrifters.com/storage/CKHEGROYGGG5khwjqhJvdxYQ239kg8RpGbcER5FA.png">
+
+
+While some of you fared better than others, the Cove Stalker gauntlet has been crossed. Those who had to reroute have lost precious time and resource bandwidth. Those who were able to squeeze through and keep the route, remain better positioned to tackle the next obstacle: the long, dark of The Void.
+
+to be continued...
