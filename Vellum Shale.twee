@@ -12,13 +12,13 @@ Vellum Shale
 }
 
 
-:: BARTER {"position":"250,300","size":"100,100"}
+:: BARTER {"position":"100,275","size":"100,100"}
 It's perhaps a bit of a longshot, but if a member of the Union of Merchants is in your crew, you can attempt to barter your way through.
 
 [[continue...->Some fared better]]
 
 
-:: By the authority {"position":"375,175","size":"100,100"}
+:: By the authority {"position":"400,150","size":"100,100"}
 <img width="100px" src="https://compendium.fringedrifters.com/storage/UNQ4gPcMwkYZ2MpAeeChaekek1oXrRiRUTi8OEGP.png">
 
 "By the authority of Calson Wight, you are encroaching in private space. Quelch your burners, kips. We got you painted solid under company rails, so nothing greasy."
@@ -41,7 +41,23 @@ Parlay is the only path forward…or is it?
 
 
 
-:: DIPLOMACY {"position":"375,300","size":"100,100"}
+:: Cycles on end {"position":"375,925","size":"100,100"}
+Finally, after enduring cycles on end, comes the sight every longhauling drifter yearns to see: a flickering speck in the distance.
+
+The speck grows into a swirling green orb, revealing itself to be a tumultuous gas planet, roiling with electric storms. Your crew gathers around the cockpit glass to silently behold your long-awaited destination.
+
+Despite the terrifying beauty of this unadulterated frontier planet, fear and disappointment begins to set in. No one dares say anything, but there's nothing on the scopes save for the ragged buzz of electrical radiation emanating from the planet itself.
+
+But then, as your craft settles into orbit, arcing toward the planet's dark side, a barely perceptible rainbow glint catches your eye.
+
+Hidden in low orbit amidst the spectral haze, floats the fabled craft: the ancient Surveyor Station.
+
+You dive down toward it.
+
+[[continue...->State of disrepair]]
+
+
+:: DIPLOMACY {"position":"250,275","size":"100,100"}
 Looks like some of you have some friendly affiliations onboard. While Cove Stalkers are normally pretty indiscriminate with their application of coercion, the one thing they do fear is bad blood traveling up the chain to Beshtalan power brokers.
 
 If any of your crew bear Beshtala-Chanko, Dugall Freight, League of Channel, Expatriation Roster, or Mercenary insignias, - with a little coaxing, the Cove Stalkers might be amenable to letting you pass through.
@@ -55,7 +71,7 @@ But for those who don't have the luxury of influence or camaraderie with these g
 [[continue...->Some fared better]]
 
 
-:: EVASION {"position":"500,300","size":"100,100"}
+:: EVASION {"position":"400,275","size":"100,100"}
 If diplomacy isn't your strong suit, perhaps you have a seasoned pilot in the chair. Those that bear the Topography Society, Longhaulers, Expeditionary Society, Slash Patcher, or - best of all - a Saddler Racing League insignia - might have what it takes to outmaneuver this standoff.
 
 If successful, a double-roll and a cyclone dive, will juke your ship into their blind spot.
@@ -63,6 +79,14 @@ If successful, a double-roll and a cyclone dive, will juke your ship into their 
 Even retired Saddler's tend to keep a can of reactor juice in pocket and a dash of sauce on the burners will have you speeding on your way, leaving a scope-jamming shockwave in your wake.
 
 [[continue...->Some fared better]]
+
+
+:: FOOD {"position":"75,725","size":"100,100"}
+Next to air and shelter, food is everything. Staving hunger is merely the baseline for what food can offer. Bad food makes one more susceptible to health issues. Tedious or drab food will deteriorate morale over time. A healthy, varied diet is a boon on both fronts.
+
+If you have graduates of the Borsh Conservatory of Gastrocraft or anyone proficient with a Machine Mouth, they'll serve you well on this journey.
+
+[[continue...->Cycles on end]]
 
 
 :: Gathered A Crew {"position":"400,25","size":"100,100"}
@@ -95,6 +119,48 @@ The artifacts they left behind were integral to the reintroduction of spacefligh
 [[continue...->Only Survivor]]
 
 
+:: LUCK {"position":"675,725","size":"100,100"}
+And lastly, regardless of your preparations or expertise, a little luck can go a long way. The spirits of the Patron Saints of Decompression on the Margul Scavengers, of Air Supply on the Motley Wannabes, and of Sanity on the Saints of the Round Power give those crews an extra boost for a frictionless passage.
+
+[[continue...->Cycles on end]]
+
+
+:: MAINTENANCE {"position":"375,725","size":"100,100"}
+Undoubtedly issues with the ship will arise on a journey this long and your crew's proficiency with maintenance determines how quickly problems can be resolved. Those with EVA skill and mech suits fare particularly well on this front, keeping exterior operations quick and safe. Additionally, the expertise of a member of the Cog Crew or Engineers Guild will keep your craft in working order.
+
+[[continue...->Cycles on end]]
+
+
+:: MENTAL {"position":"225,725","size":"100,100"}
+Staying sharp and of sound mind is an often underestimated trial of the void. There's no escape from the walls of your craft. No respite from your crewmates. When pressures mount, there's no release valve in this airtight cannister.
+
+Those who bear the insignias of: Forsaken Bench The Path Transcendentalists Void Drifter Survivalist Guild Free Fringe …are well-versed in the mental marathon of the longhaul and can help their crewmates weather the psychological storm.
+
+Toxic personalities, however, can infect the whole crew.
+
+Those who brandish: Combustible Dark Ether House Slash Patcher League of Channel Carver Ji …badges tend to deflect their inner turmoil with aggression and condescension, poisoning the fragile vibe.
+
+[[continue...->Cycles on end]]
+
+
+:: Mundane journey {"position":"400,600","size":"100,100"}
+Decacycles of empty space stand between you and your prize. You pray that your journey is mundane, but even mundanity has its own perils for a crew of five, pakt like sardines in a crushed tin box.
+
+[[FOOD]]
+[[MENTAL]]
+[[MAINTENANCE]]
+[[NAVIGATION/SPEED]]
+[[LUCK]]
+
+
+:: NAVIGATION/SPEED {"position":"525,725","size":"100,100"}
+Both of the previous considerations are also aided by a speedy, efficient route.
+
+Members of the: Saddler Racing League Man Earlie Expeditionary Society Longhaulers Topography Society Union of Merchants …will keep your ship on track to your destination as quickly as possible.
+
+[[continue...->Cycles on end]]
+
+
 :: Only Survivor {"position":"250,25","size":"100,100"}
 <img width="100px" src="https://compendium.fringedrifters.com/storage/etcVDn2iQnwMUBUadi21NqmFlxpHt5HFoCh0xwD0.png">
 
@@ -110,7 +176,7 @@ But a quest of this caliber is no solo operation. You need a crew. A close-knit 
 
 
 
-:: Packed Tight {"position":"100,175","size":"100,100"}
+:: Packed Tight {"position":"575,25","size":"100,100"}
 <img width="100px" src="https://compendium.fringedrifters.com/storage/5QcFUErO90mEwYp7uDkFri83hAA12zVns57SlUG2.png">
 
 Packed tight into your spacecraft, the course is plotted and the route quickly has you passing through the Faye Cloud - a field of dense gas suspended in space. The gas scrambles all scopes, preventing any communication, tracking, or computer-assisted navigation.
@@ -130,13 +196,13 @@ As soon as the ship's sensors regain their clarity, a harsh blip abruptly cuts t
 [[continue...->Shiver runs]]
 
 
-:: RETREAT {"position":"650,300","size":"100,100"}
+:: RETREAT {"position":"575,275","size":"100,100"}
 For the rest of you, or those that couldn't scrounge enough cachet to squeeze through the blockade…you're all forced to retreat, rerouting out of Cove Stalker jurisdiction.
 
 [[continue...->Some fared better]]
 
 
-:: Shiver runs {"position":"225,175","size":"100,100"}
+:: Shiver runs {"position":"725,25","size":"100,100"}
 <img width="100px" src="https://compendium.fringedrifters.com/storage/GIBtam8YcnHWnqC8vJSzxW0zmvME8aszwIbXVj5N.png">
 
 A shiver runs down your collective spines, for you all know the true dynamics of space combat: close enough for the scopes, close enough to strike.
@@ -156,16 +222,40 @@ A distorted voice rasps over the radio:
 [[continue...->By the authority]]
 
 
-:: Some fared better {"position":"400,550","size":"100,100"}
+:: Some fared better {"position":"400,475","size":"100,100"}
 <img width="400px" src="https://compendium.fringedrifters.com/storage/CKHEGROYGGG5khwjqhJvdxYQ239kg8RpGbcER5FA.png">
 
 
 While some of you fared better than others, the Cove Stalker gauntlet has been crossed. Those who had to reroute have lost precious time and resource bandwidth. Those who were able to squeeze through and keep the route, remain better positioned to tackle the next obstacle: the long, dark of The Void.
 
+[[continue...->Mundane journey]]
+
+
+:: State of disrepair {"position":"375,1050","size":"100,100"}
+Even in its state of disrepair, battered by centuries of celestial wear, the station might just be the most beautiful thing you've ever seen…and that's not only because of the payload it represents.
+
+Old World craftwork is a different breed. Organic in its design, full of flowing lines and intricate latticework, wrought of extinct materials forged with long-forgot methods - most notable of which: the Vellum Shale that pulled you out here.
+
+The shimmering shale hangs like sailcloth, draped from numerous masts that reach out from the craft like the branching tendrils of treeroot. The cloth-like metal sheets curve in smooth folds and the multi-colored lightplay glistening across their surface almost makes them seem to ripple in the wind despite being frozen motionless in the vacuum of space.
+
+As your craft settles into parallel orbit, your crew schemes its approach on how to best pillage the shale.
+
+You'd expected to see debris damage, but it appears that some kind of explosion has burst open the side of the chassis from the inside, taking the airlock hatch with it. Ship-to-ship boarding isn't going to be an option.
+
+As you continue your reconnoiter of the craft, you float past what appears to be the bridge. Through the impossibly large and still fully-intact windows, you can see that the interior has been pillaged.
+
+It's clear others have been here before you.
+
+All components have been gutted from the control panels, leaving behind the skeletal husk of what was once a super-advanced helm.
+
+But reams of Shale still hang from the masts and this is all that matters.
+
+Floatsuits are donned. Tools are prepped. Coils of hose stacked on their spools. It's time to get to work. 
+
 to be continued...
 
 
-:: THREATEN/AMBUSH {"position":"800,300","size":"100,100"}
+:: THREATEN/AMBUSH {"position":"725,275","size":"100,100"}
 It appears that a few of you, however, have a more aggressive option that no one else is quipt to attempt.
 
 Several crews have brought with them the confidence of one or more Freight Wars EVA vets, quipt with Kickback Bombshot launchers.
