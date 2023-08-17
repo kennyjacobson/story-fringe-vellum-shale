@@ -12,6 +12,12 @@ Vellum Shale
 }
 
 
+:: BARTER {"position":"250,300","size":"100,100"}
+It's perhaps a bit of a longshot, but if a member of the Union of Merchants is in your crew, you can attempt to barter your way through.
+
+[[continue...->Some fared better]]
+
+
 :: By the authority {"position":"375,175","size":"100,100"}
 <img width="100px" src="https://compendium.fringedrifters.com/storage/UNQ4gPcMwkYZ2MpAeeChaekek1oXrRiRUTi8OEGP.png">
 
@@ -25,7 +31,18 @@ For the more combat-ready crews, this severely limits your options for recourse 
 
 Parlay is the only path forward…or is it?
 
-DIPLOMACY (click-append:"DIPLOMACY")[ (text-colour:cyan)[Looks like some of you have some friendly affiliations onboard. While Cove Stalkers are normally pretty indiscriminate with their application of coercion, the one thing they do fear is bad blood traveling up the chain to Beshtalan power brokers.
+[[DIPLOMACY]]
+[[EVASION]]
+[[BARTER]]
+[[RETREAT]]
+[[THREATEN/AMBUSH]]
+
+
+
+
+
+:: DIPLOMACY {"position":"375,300","size":"100,100"}
+Looks like some of you have some friendly affiliations onboard. While Cove Stalkers are normally pretty indiscriminate with their application of coercion, the one thing they do fear is bad blood traveling up the chain to Beshtalan power brokers.
 
 If any of your crew bear Beshtala-Chanko, Dugall Freight, League of Channel, Expatriation Roster, or Mercenary insignias, - with a little coaxing, the Cove Stalkers might be amenable to letting you pass through.
 
@@ -33,33 +50,17 @@ A few of you even have some former Cove Stalkers in tow, which is ultimately a f
 
 After trading banter and a few disparaging remarks directed toward the bulk of drifterdom, some of you are on your way.
 
-But for those who don't have the luxury of influence or camaraderie with these goons, other measures will have to be taken.]]
+But for those who don't have the luxury of influence or camaraderie with these goons, other measures will have to be taken.
 
-EVASION (click-append:"EVASION")[ (text-colour:cyan)[If diplomacy isn't your strong suit, perhaps you have a seasoned pilot in the chair. Those that bear the Topography Society, Longhaulers, Expeditionary Society, Slash Patcher, or - best of all - a Saddler Racing League insignia - might have what it takes to outmaneuver this standoff.
+[[continue...->Some fared better]]
+
+
+:: EVASION {"position":"500,300","size":"100,100"}
+If diplomacy isn't your strong suit, perhaps you have a seasoned pilot in the chair. Those that bear the Topography Society, Longhaulers, Expeditionary Society, Slash Patcher, or - best of all - a Saddler Racing League insignia - might have what it takes to outmaneuver this standoff.
 
 If successful, a double-roll and a cyclone dive, will juke your ship into their blind spot.
 
-Even retired Saddler's tend to keep a can of reactor juice in pocket and a dash of sauce on the burners will have you speeding on your way, leaving a scope-jamming shockwave in your wake.]]
-
-BARTER (click-append:"BARTER")[ (text-colour:cyan)[It's perhaps a bit of a longshot, but if a member of the Union of Merchants is in your crew, you can attempt to barter your way through.]]
-
-RETREAT (click-append:"RETREAT")[ (text-colour:cyan)[For the rest of you, or those that couldn't scrounge enough cachet to squeeze through the blockade…you're all forced to retreat, rerouting out of Cove Stalker jurisdiction.]]
-
-THREATEN/AMBUSH (click-append:"THREATEN/AMBUSH")[ (text-colour:cyan)[It appears that a few of you, however, have a more aggressive option that no one else is quipt to attempt.
-
-Several crews have brought with them the confidence of one or more Freight Wars EVA vets, quipt with Kickback Bombshot launchers.
-
-While your pilot keeps the Stalkers preoccupied on the radio line, they silently slip out the airlock and glide between the Stalkers' twin Rackworms, safely out of the firing cone of their railguns.
-
-Once in position you reveal your countermeasure. An easy lob from the bombshot presents an equalizing blow, turning this stickup into a stalemate of mutually assured destruction.
-
-The Stalkers can hear the unhinged desperation in your threat as they realize that what was supposed to be easy pickings has turned into quite a scratchy encounter. They fold their hand, back down, and let you pass.
-
-And finally, only one crew - Seishin of the Void - has got a secret weapon in their cabin. A Roving Terror pirate captain, quipt with a devastating coil gun and the EVA agility of a Halleyforge Jetpack.
-
-There's no need to dabble with threats for this deadly drifter. The flare of their powerful suit-mounted thrusters immediately alerts the Cove Stalkers to the threat…but the encounter is effectively over already.
-
-Too quick a target to paint, the pirate jets past the Rackworms and before the thought to pivot can translate into defensive action, two shots have already been fired from the coil gun, vaporizing the mercs in their seats as their exploding reactors consume their ships.]]
+Even retired Saddler's tend to keep a can of reactor juice in pocket and a dash of sauce on the burners will have you speeding on your way, leaving a scope-jamming shockwave in your wake.
 
 [[continue...->Some fared better]]
 
@@ -129,6 +130,12 @@ As soon as the ship's sensors regain their clarity, a harsh blip abruptly cuts t
 [[continue...->Shiver runs]]
 
 
+:: RETREAT {"position":"650,300","size":"100,100"}
+For the rest of you, or those that couldn't scrounge enough cachet to squeeze through the blockade…you're all forced to retreat, rerouting out of Cove Stalker jurisdiction.
+
+[[continue...->Some fared better]]
+
+
 :: Shiver runs {"position":"225,175","size":"100,100"}
 <img width="100px" src="https://compendium.fringedrifters.com/storage/GIBtam8YcnHWnqC8vJSzxW0zmvME8aszwIbXVj5N.png">
 
@@ -149,10 +156,30 @@ A distorted voice rasps over the radio:
 [[continue...->By the authority]]
 
 
-:: Some fared better {"position":"500,175","size":"100,100"}
+:: Some fared better {"position":"400,550","size":"100,100"}
 <img width="400px" src="https://compendium.fringedrifters.com/storage/CKHEGROYGGG5khwjqhJvdxYQ239kg8RpGbcER5FA.png">
 
 
 While some of you fared better than others, the Cove Stalker gauntlet has been crossed. Those who had to reroute have lost precious time and resource bandwidth. Those who were able to squeeze through and keep the route, remain better positioned to tackle the next obstacle: the long, dark of The Void.
 
 to be continued...
+
+
+:: THREATEN/AMBUSH {"position":"800,300","size":"100,100"}
+It appears that a few of you, however, have a more aggressive option that no one else is quipt to attempt.
+
+Several crews have brought with them the confidence of one or more Freight Wars EVA vets, quipt with Kickback Bombshot launchers.
+
+While your pilot keeps the Stalkers preoccupied on the radio line, they silently slip out the airlock and glide between the Stalkers' twin Rackworms, safely out of the firing cone of their railguns.
+
+Once in position you reveal your countermeasure. An easy lob from the bombshot presents an equalizing blow, turning this stickup into a stalemate of mutually assured destruction.
+
+The Stalkers can hear the unhinged desperation in your threat as they realize that what was supposed to be easy pickings has turned into quite a scratchy encounter. They fold their hand, back down, and let you pass.
+
+And finally, only one crew - Seishin of the Void - has got a secret weapon in their cabin. A Roving Terror pirate captain, quipt with a devastating coil gun and the EVA agility of a Halleyforge Jetpack.
+
+There's no need to dabble with threats for this deadly drifter. The flare of their powerful suit-mounted thrusters immediately alerts the Cove Stalkers to the threat…but the encounter is effectively over already.
+
+Too quick a target to paint, the pirate jets past the Rackworms and before the thought to pivot can translate into defensive action, two shots have already been fired from the coil gun, vaporizing the mercs in their seats as their exploding reactors consume their ships.
+
+[[continue...->Some fared better]]
