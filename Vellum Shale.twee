@@ -246,7 +246,7 @@ The onlookers stand, weapons poised…hesitant to shoot or swipe lest they kill 
 
 
 :: Gathered A Crew {"position":"400,25","size":"100,100"}
-<img width="100px" src="https://compendium.fringedrifters.com/storage/wXtn8rU4d97sAFvTcmB1MaZVg5y4GQO0IfNU7dsl.png">
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142573042631975002/intermatrixnaut_setting_group_of_five_spacesuited-entrpreneurs__ac782894-2cf4-4891-bad3-b26d853f2d45.png">
 
 Over the last few cycles, you've gathered your crew. A lean team of five to tackle the perils that undoubtedly stand between you and this prospective bounty.
 
@@ -294,7 +294,7 @@ Invigorated by the surprise prospect, you make your way back to your ship and th
 
 
 :: Intro {"position":"100,25","size":"100,100"}
-<img width="900px" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142192925573390366/DrifterDesert.PNG">
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142192925573390366/DrifterDesert.PNG">
 
 Welcome, drifters.
 
@@ -383,7 +383,7 @@ Members of the: Saddler Racing League Man Earlie Expeditionary Society Longhaule
 
 
 :: Only Survivor {"position":"250,25","size":"100,100"}
-<img width="100px" src="https://compendium.fringedrifters.com/storage/etcVDn2iQnwMUBUadi21NqmFlxpHt5HFoCh0xwD0.png">
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142894157577326662/SCene2.png">
 
 This lone drifter appeared to be his mission's only survivor. In his brief encounter with Duzi, he was reluctant to recount what truly happened, but he left behind the coordinates to the source of the V-Shale: an abandoned Surveyor Station…an Old World exploratory craft.
 
@@ -505,6 +505,8 @@ Floatsuits are donned. Tools are prepped. Coils of hose stacked on their spools.
 
 
 :: Storm canopy {"position":"200,1250","size":"100,100"}
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142851250065526904/Swamp.png">
+
 As you break through the storm canopy, you notice a ship-wreck on the planet's surface - a landing craft, similar to your own, half-submerged in the muck and covered in purple mold.
 
 This is a warning sign. Touchdown will not be possible in this swampy environ.
@@ -578,3 +580,16 @@ Well-armed crews instinctively open fire, unloading on the staggering horde - Ko
 An explosive round from a roulette gun flings limbs in all directions, slapping back down to the surface in a cascade of thrown mud and flesh.
 
 [[continue...->Blades come out]]
+
+
+:: StoryStylesheet [stylesheet]
+
+tw-story {
+	background-color: #232320;
+    font: 100% gt-pressura, ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1.0em;
+    line-height: 1.5em;
+  	padding: 5% 20%;
+} 
+
+
