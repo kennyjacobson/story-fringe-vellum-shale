@@ -297,12 +297,15 @@ Invigorated by the surprise prospect, you make your way back to your ship and th
 
 :: Intro {"position":"100,25","size":"100,100"}
 <script>
-window.audio_background.play();
+$('#img-pop').click(function() {
+	window.audio_background.play();
+});
 </script>
 
 <img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142192925573390366/DrifterDesert.PNG">
 
-Welcome, drifters.
+
+Welcome, drifters.<span id='img-pop'>(text-colour:blue)[ (Sound On)]</span>
 
 A few cycles ago, many of you passed under the hatch of the Sowing Season and had the pleasure of trading chant with Duzi, the Bench's premiere keeper of tall tales.
 
@@ -460,7 +463,9 @@ to be continued...
 
 :: Shiver runs {"position":"725,25","size":"100,100"}
 <script>
-window.five_tone.play();
+$('#five-tone').click(function() {
+	window.five_tone.play();
+});
 </script>
 
 <img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1143255052287475742/intermatrixnaut_Setting_distinctive_five-tone_signal_chimes_ove_5e7ae654-6c2b-4054-848f-cbef8bdbcf92.png">
@@ -469,7 +474,7 @@ A shiver runs down your collective spines, for you all know the true dynamics of
 
 But armed craft are rare…and even if they're pirates, you might have enough range to slip away…so long as they're not brandishing dual outriggers.
 
-A distinctive five-tone signal chimes over the radio. 
+A distinctive <span id="five-tone">(text-colour:blue)[five-tone signal]</span> chimes over the radio. 
 
 Instantly, you all know what this means: Cove Stalkers.
 

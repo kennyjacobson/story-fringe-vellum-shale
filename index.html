@@ -22,12 +22,15 @@ tw-story {
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">window.audio_background = new Audio('https://cdn.discordapp.com/attachments/1141853154707783770/1143704324766183444/Zypher-Pollux.mp3');
 
 window.five_tone = new Audio('https://cdn.discordapp.com/attachments/1141853154707783770/1143267942507741345/Cove_Stalker_Signal_3.mp3');</script><tw-passagedata pid="1" name="Intro" tags="" position="100,25" size="100,100">&lt;script&gt;
-window.audio_background.play();
+$(&#39;#img-pop&#39;).click(function() {
+	window.audio_background.play();
+});
 &lt;/script&gt;
 
 &lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1142192925573390366/DrifterDesert.PNG&quot;&gt;
 
-Welcome, drifters.
+
+Welcome, drifters.&lt;span id=&#39;img-pop&#39;&gt;(text-colour:blue)[ (Sound On)]&lt;/span&gt;
 
 A few cycles ago, many of you passed under the hatch of the Sowing Season and had the pleasure of trading chant with Duzi, the Bench&#39;s premiere keeper of tall tales.
 
@@ -78,7 +81,9 @@ Your ship unceremoniously breaches the cloud. In an instant, the veil is lifted.
 As soon as the ship&#39;s sensors regain their clarity, a harsh blip abruptly cuts through the silence of the cabin. On the monitor blinks the last thing you want to see: two dots.
 
 [[continue...-&gt;Shiver runs]]</tw-passagedata><tw-passagedata pid="5" name="Shiver runs" tags="" position="725,25" size="100,100">&lt;script&gt;
-window.five_tone.play();
+$(&#39;#five-tone&#39;).click(function() {
+	window.five_tone.play();
+});
 &lt;/script&gt;
 
 &lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1143255052287475742/intermatrixnaut_Setting_distinctive_five-tone_signal_chimes_ove_5e7ae654-6c2b-4054-848f-cbef8bdbcf92.png&quot;&gt;
@@ -87,7 +92,7 @@ A shiver runs down your collective spines, for you all know the true dynamics of
 
 But armed craft are rare…and even if they&#39;re pirates, you might have enough range to slip away…so long as they&#39;re not brandishing dual outriggers.
 
-A distinctive five-tone signal chimes over the radio. 
+A distinctive &lt;span id=&quot;five-tone&quot;&gt;(text-colour:blue)[five-tone signal]&lt;/span&gt; chimes over the radio. 
 
 Instantly, you all know what this means: Cove Stalkers.
 
