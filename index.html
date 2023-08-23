@@ -21,16 +21,27 @@ tw-story {
 
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">window.audio_background = new Audio('https://cdn.discordapp.com/attachments/1141853154707783770/1143704324766183444/Zypher-Pollux.mp3');
 
-window.five_tone = new Audio('https://cdn.discordapp.com/attachments/1141853154707783770/1143267942507741345/Cove_Stalker_Signal_3.mp3');</script><tw-passagedata pid="1" name="Intro" tags="" position="100,25" size="100,100">&lt;script&gt;
-$(&#39;#img-pop&#39;).click(function() {
-	window.audio_background.play();
+window.five_tone = new Audio('https://cdn.discordapp.com/attachments/1141853154707783770/1143267942507741345/Cove_Stalker_Signal_3.mp3');
+
+window.sound_on = false;</script><tw-passagedata pid="1" name="Intro" tags="" position="100,25" size="100,100">&lt;script&gt;
+
+$(&#39;#sound-toggle&#39;).click(function() {
+	if(!window.sound_on){
+      window.audio_background.play();
+      $(&#39;#sound-toggle&#39;).text(&quot; | 🔊&quot;)
+      window.sound_on = true;
+    } else {
+      window.audio_background.pause();
+      $(&#39;#sound-toggle&#39;).text(&quot; | 🔈&quot;)
+      window.sound_on = false;
+    }
 });
 &lt;/script&gt;
 
 &lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1142192925573390366/DrifterDesert.PNG&quot;&gt;
 
 
-Welcome, drifters.&lt;span id=&#39;img-pop&#39;&gt;(text-colour:blue)[ (Sound On)]&lt;/span&gt;
+Welcome, drifters.&lt;strong&gt;&lt;a id=&#39;sound-toggle&#39;&gt; | sound 🔈&lt;/a&gt;&lt;/strong&gt;
 
 A few cycles ago, many of you passed under the hatch of the Sowing Season and had the pleasure of trading chant with Duzi, the Bench&#39;s premiere keeper of tall tales.
 
@@ -38,7 +49,23 @@ To recap, Duzi had recently crossed paths with a solo drifter, who was left ratt
 
 The artifacts they left behind were integral to the reintroduction of spaceflight and other technologies, but many we&#39;ve yet to fully understand still remain scattered across the Occupied Spaces.
 
-[[continue...-&gt;Only Survivor]]</tw-passagedata><tw-passagedata pid="2" name="Only Survivor" tags="" position="250,25" size="100,100">
+[[continue...-&gt;Only Survivor]]</tw-passagedata><tw-passagedata pid="2" name="Only Survivor" tags="" position="250,25" size="100,100">&lt;script&gt;
+
+$(&#39;#sound-toggle&#39;).click(function() {
+	if(!window.sound_on){
+      window.audio_background.play();
+      $(&#39;#sound-toggle&#39;).text(&quot;🔊&quot;)
+      window.sound_on = true;
+    } else {
+      window.audio_background.pause();
+      $(&#39;#sound-toggle&#39;).text(&quot;🔈&quot;)
+      window.sound_on = false;
+    }
+});
+&lt;/script&gt;
+
+
+&lt;strong&gt;&lt;a id=&#39;sound-toggle&#39;&gt;🔈&lt;/a&gt;&lt;/strong&gt;
 &lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1142894157577326662/SCene2.png&quot;&gt;
 
 This lone drifter appeared to be his mission&#39;s only survivor. In his brief encounter with Duzi, he was reluctant to recount what truly happened, but he left behind the coordinates to the source of the V-Shale: an abandoned Surveyor Station…an Old World exploratory craft.
@@ -92,7 +119,7 @@ A shiver runs down your collective spines, for you all know the true dynamics of
 
 But armed craft are rare…and even if they&#39;re pirates, you might have enough range to slip away…so long as they&#39;re not brandishing dual outriggers.
 
-A distinctive &lt;span id=&quot;five-tone&quot;&gt;(text-colour:blue)[five-tone signal]&lt;/span&gt; chimes over the radio. 
+A distinctive &lt;span id=&quot;five-tone&quot;&gt;(text-colour:blue)[five-tone signal 🔊]&lt;/span&gt; chimes over the radio. 
 
 Instantly, you all know what this means: Cove Stalkers.
 

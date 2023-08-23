@@ -297,15 +297,24 @@ Invigorated by the surprise prospect, you make your way back to your ship and th
 
 :: Intro {"position":"100,25","size":"100,100"}
 <script>
-$('#img-pop').click(function() {
-	window.audio_background.play();
+
+$('#sound-toggle').click(function() {
+	if(!window.sound_on){
+      window.audio_background.play();
+      $('#sound-toggle').text(" | 🔊")
+      window.sound_on = true;
+    } else {
+      window.audio_background.pause();
+      $('#sound-toggle').text(" | 🔈")
+      window.sound_on = false;
+    }
 });
 </script>
 
 <img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142192925573390366/DrifterDesert.PNG">
 
 
-Welcome, drifters.<span id='img-pop'>(text-colour:blue)[ (Sound On)]</span>
+Welcome, drifters.<strong><a id='sound-toggle'> | sound 🔈</a></strong>
 
 A few cycles ago, many of you passed under the hatch of the Sowing Season and had the pleasure of trading chant with Duzi, the Bench's premiere keeper of tall tales.
 
@@ -392,7 +401,23 @@ Members of the: Saddler Racing League Man Earlie Expeditionary Society Longhaule
 
 
 :: Only Survivor {"position":"250,25","size":"100,100"}
+<script>
 
+$('#sound-toggle').click(function() {
+	if(!window.sound_on){
+      window.audio_background.play();
+      $('#sound-toggle').text("🔊")
+      window.sound_on = true;
+    } else {
+      window.audio_background.pause();
+      $('#sound-toggle').text("🔈")
+      window.sound_on = false;
+    }
+});
+</script>
+
+
+<strong><a id='sound-toggle'>🔈</a></strong>
 <img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142894157577326662/SCene2.png">
 
 This lone drifter appeared to be his mission's only survivor. In his brief encounter with Duzi, he was reluctant to recount what truly happened, but he left behind the coordinates to the source of the V-Shale: an abandoned Surveyor Station…an Old World exploratory craft.
@@ -474,7 +499,7 @@ A shiver runs down your collective spines, for you all know the true dynamics of
 
 But armed craft are rare…and even if they're pirates, you might have enough range to slip away…so long as they're not brandishing dual outriggers.
 
-A distinctive <span id="five-tone">(text-colour:blue)[five-tone signal]</span> chimes over the radio. 
+A distinctive <span id="five-tone">(text-colour:blue)[five-tone signal 🔊]</span> chimes over the radio. 
 
 Instantly, you all know what this means: Cove Stalkers.
 
@@ -605,6 +630,8 @@ An explosive round from a roulette gun flings limbs in all directions, slapping 
 window.audio_background = new Audio('https://cdn.discordapp.com/attachments/1141853154707783770/1143704324766183444/Zypher-Pollux.mp3');
 
 window.five_tone = new Audio('https://cdn.discordapp.com/attachments/1141853154707783770/1143267942507741345/Cove_Stalker_Signal_3.mp3');
+
+window.sound_on = false;
 
 :: StoryStylesheet [stylesheet]
 
