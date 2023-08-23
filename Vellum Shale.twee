@@ -246,6 +246,8 @@ The onlookers stand, weapons poised…hesitant to shoot or swipe lest they kill 
 
 
 :: Gathered A Crew {"position":"400,25","size":"100,100"}
+
+
 <img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1143694069445439518/P3.png">
 
 Over the last few cycles, you've gathered your crew. A lean team of five to tackle the perils that undoubtedly stand between you and this prospective bounty.
@@ -294,6 +296,10 @@ Invigorated by the surprise prospect, you make your way back to your ship and th
 
 
 :: Intro {"position":"100,25","size":"100,100"}
+<script>
+window.audio_background.play();
+</script>
+
 <img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142192925573390366/DrifterDesert.PNG">
 
 Welcome, drifters.
@@ -383,6 +389,7 @@ Members of the: Saddler Racing League Man Earlie Expeditionary Society Longhaule
 
 
 :: Only Survivor {"position":"250,25","size":"100,100"}
+
 <img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142894157577326662/SCene2.png">
 
 This lone drifter appeared to be his mission's only survivor. In his brief encounter with Duzi, he was reluctant to recount what truly happened, but he left behind the coordinates to the source of the V-Shale: an abandoned Surveyor Station…an Old World exploratory craft.
@@ -452,6 +459,10 @@ to be continued...
 
 
 :: Shiver runs {"position":"725,25","size":"100,100"}
+<script>
+window.five_tone.play();
+</script>
+
 <img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1143255052287475742/intermatrixnaut_Setting_distinctive_five-tone_signal_chimes_ove_5e7ae654-6c2b-4054-848f-cbef8bdbcf92.png">
 
 A shiver runs down your collective spines, for you all know the true dynamics of space combat: close enough for the scopes, close enough to strike.
@@ -460,9 +471,6 @@ But armed craft are rare…and even if they're pirates, you might have enough ra
 
 A distinctive five-tone signal chimes over the radio. 
 
-<audio controls src="https://cdn.discordapp.com/attachments/1141853154707783770/1143267942507741345/Cove_Stalker_Signal_3.mp3">
-    <a href="https://cdn.discordapp.com/attachments/1141853154707783770/1143267942507741345/Cove_Stalker_Signal_3.mp3"> Download audio </a>
-  </audio>
 Instantly, you all know what this means: Cove Stalkers.
 
 
@@ -587,6 +595,11 @@ An explosive round from a roulette gun flings limbs in all directions, slapping 
 
 [[continue...->Blades come out]]
 
+
+:: StoryScript [script]
+window.audio_background = new Audio('https://cdn.discordapp.com/attachments/1141853154707783770/1143704324766183444/Zypher-Pollux.mp3');
+
+window.five_tone = new Audio('https://cdn.discordapp.com/attachments/1141853154707783770/1143267942507741345/Cove_Stalker_Signal_3.mp3');
 
 :: StoryStylesheet [stylesheet]
 
