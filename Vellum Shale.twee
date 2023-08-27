@@ -12,7 +12,7 @@ Vellum Shale
 }
 
 
-:: \ Will aid your work {"position":"375,1050","size":"100,100"}
+:: \ Will aid your work {"position":"325,1050","size":"100,100"}
 <div style="display:flex; justify-content:space-between">
 <img height="100px" src="https://compendium.fringedrifters.com/storage/r165.png">
 <img height="100px" src="https://compendium.fringedrifters.com/storage/r516.png">
@@ -34,12 +34,14 @@ But then one of your crew makes an intriguing discovery.
 
 
 :: BARTER {"position":"100,275","size":"100,100"}
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144687095932268554/BARTER.jpg">
+
 It's perhaps a bit of a longshot, but if a member of the Union of Merchants is in your crew, you can attempt to barter your way through.
 
 [[continue...->Some fared better]]
 
 
-:: Back on ship {"position":"975,1050","size":"100,100"}
+:: Back on ship {"position":"900,1175","size":"100,100"}
 Back on your ship, the new findings are presented to the entire crew.
 
 It appears the gas planet is not a gas planet at all, but hides a swampy surface beneath it's planet-wide storms. This is confirmed when the dead drifter's nav module is plugged into the ship's computer, indicating the precise coordinates of their landing site.
@@ -80,6 +82,18 @@ For the rare few brandishing a death beam, the body-mounted capacitor can only f
 Even those only brandishing hooks and claws find it an easy task to cripple these emaciated fools.
 
 [[continue...->Saints of]]
+
+
+:: Breaching the storm {"position":"175,1550","size":"100,100"}
+After breaching the storm, the cruise back to your ship is a smooth, silent breeze.
+
+The lander docks. The suits are decontaminated. And the bevy of pearls joins the stacks of Vellum Shale in the cargo carriage.
+
+The squares get punched and the thruster does a nice strong burn. You're home free…at least that's how it feels.
+
+In reality, however, you picked up an undetected tail before you even reached the Surveyor Station. Pirates have been following you for several cycles now.
+
+[[continue...->Painted your target]]
 
 
 :: By the authority {"position":"400,150","size":"100,100"}
@@ -127,7 +141,7 @@ Those who wear the Wings badge of atmospheric pilots are able to command the cra
 [[continue...->Storm canopy]]
 
 
-:: Covering the floor {"position":"675,1050","size":"100,100"}
+:: Covering the floor {"position":"600,1050","size":"100,100"}
 Covering the entirety of the floor and beginning to creep up the hangar walls sprawls some kind of bioactive mold. The deep purple carpet pulses with intermittent bioluminescence, enough to softly illuminate the cavernous space with its rippling glow.
 
 You move forward to get a closer look.
@@ -200,6 +214,8 @@ You dive down toward it.
 
 
 :: DIPLOMACY {"position":"250,275","size":"100,100"}
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144686055631630448/Diplomacy.jpg">
+
 Looks like some of you have some friendly affiliations onboard. While Cove Stalkers are normally pretty indiscriminate with their application of coercion, the one thing they do fear is bad blood traveling up the chain to Beshtalan power brokers.
 
 If any of your crew bear Beshtala-Chanko, Dugall Freight, League of Channel, Expatriation Roster, or Mercenary insignias, - with a little coaxing, the Cove Stalkers might be amenable to letting you pass through.
@@ -213,7 +229,28 @@ But for those who don't have the luxury of influence or camaraderie with these g
 [[continue...->Some fared better]]
 
 
+:: EVA-combat specialists {"position":"675,1575","size":"100,100"}
+Any ''EVA-combat specialists'' on your crew leap to action, putting up a strong defensive front. The ''bombshots'' are back in business, picking off scooters before they can send their crabs down the line.
+
+''Mech suits'' facilitate spacewalk agility allowing you to go toe-to-toe with the parasitic attackers latching onto your chassis.
+
+''Hull-hooks'' are the perfect tool to sever cables and prod them away…and the advanced targeting system housed in the ''Trailmaker helmet'' paints floating targets with automated precision.
+
+Some of you have enough defensive power to beat them back.
+
+But other crews ultimately aren't quipt to thwart the boarding party and are forced to determine their fate indoors. And once the pirates get on board, the dynamics of the scrape fundamentally shift.
+
+Blood and viscera can be cleaned. A breached hull cannot.
+
+''Blades and bludgeoning tools'' become the weapons of choice and the cramped interior of your ship becomes a wall-to-wall bloodbath.
+
+[[continue...->More docile crew]]
+
+
 :: EVASION {"position":"400,275","size":"100,100"}
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144686758999633950/EVASION.jpg">
+
+
 If diplomacy isn't your strong suit, perhaps you have a seasoned pilot in the chair. Those that bear the Topography Society, Longhaulers, Expeditionary Society, Slash Patcher, or - best of all - a Saddler Racing League insignia - might have what it takes to outmaneuver this standoff.
 
 If successful, a double-roll and a cyclone dive, will juke your ship into their blind spot.
@@ -221,6 +258,32 @@ If successful, a double-roll and a cyclone dive, will juke your ship into their 
 Even retired Saddler's tend to keep a can of reactor juice in pocket and a dash of sauce on the burners will have you speeding on your way, leaving a scope-jamming shockwave in your wake.
 
 [[continue...->Some fared better]]
+
+
+:: Even RT crew members {"position":"550,1575","size":"100,100"}
+And even if you've got Roving Terror members on your crew, there's no platform for diplomacy here. A signature of a Terror raid is the radio jammers they deploy, blasting abrasive music over your ship's comms.
+
+But if you've got pirates or former pirates in tow, what they can offer is intelligence. They know the routine and how to best combat it.
+
+A pivotal distinction from your previous Cove Stalker encounter is that you can rest assured that the pirates want to keep your ship intact. It's just a matter of preventing them from taking over…
+
+And ultimately, what these pirates don't necessarily anticipate is that - after the bullshit you endured on that muckhole of a planet - you're not gonna let this ship fall easy.
+
+The finish line is in sight. It's ride or die now.
+
+[[continue...->EVA-combat specialists]]
+
+
+:: Exhausted from battle {"position":"950,1575","size":"100,100"}
+Exhausted from the battle, your crew collapses in relief, too tired to care that the walls have been painted with pirate blood.
+
+All that matters is that the payload is safe.
+
+Regardless of how you started this journey, everyone is now fast friends, bonded by your shared trials. Morale is high. Claustrophobic accommodations and depleted rations don't faze you.
+
+You could eat nothing but everfuel bars for cycles on end at this point. The Vellum Shale and bog pearls cradled safely beneath your feet provide all the satisfaction you could ever need.
+
+[[continue...->Go home]]
 
 
 :: FOOD {"position":"75,725","size":"100,100"}
@@ -263,7 +326,7 @@ Now all that's left is to see how you fare.
 [[continue...->Packed Tight]]
 
 
-:: Go home {"position":"1025,1525","size":"100,100"}
+:: Go home {"position":"1175,1325","size":"100,100"}
 Eventually, the flickering lights of the Bench appear in the distance, a beacon of hope in the darkness. Your pilot cracks a smile and knowing looks are exchanged.
 
 There's no need for words, not that any could express the utter relief and thrilling optimism you feel knowing how good that first mug is gonna taste when you return to the Sowing Season to regale Duzi with your success, pockets bulging with fresh cash.
@@ -271,7 +334,7 @@ There's no need for words, not that any could express the utter relief and thril
 THE END.
 
 
-:: Harvest begins {"position":"225,1050","size":"100,100"}
+:: Harvest begins {"position":"175,1050","size":"100,100"}
 And so, the harvest begins. Using your ship as an EVA platform, you work your way through the labyrinth of masts and shale sheets.
 
 You work as a team to unhook the sheets, trim them down, and roll them into neat reams for packing in your ship's cargo carriage.
@@ -283,7 +346,7 @@ This is really a case of how suited and well-quipt your team is to conduct an ef
 [[continue-> Will aid your work]]
 
 
-:: Hunting knife {"position":"825,1050","size":"100,100"}
+:: Hunting knife {"position":"775,1050","size":"100,100"}
 With the flick of your hunting knife, the sack is freed from its moldy casing and you peer inside to find a cache of brilliant blue bog pearls, each about the size of a fist, softly glowing.
 
 Your eyes go wide with greed.
@@ -382,6 +445,18 @@ Tools like the Ball Claw allow you to reach the deeper crevices and the Shriek a
 
 
 
+:: More docile crew {"position":"825,1575","size":"100,100"}
+Expecting a much more docile crew of explorers, the Roving Terror are taken off-guard by your payload-fueled fervor. There's too much at stake to allow your labors to be plucked from the sky and your crew expresses this with alarming brutality.
+
+A drifter with a full cargo carriage is a dangerous beast and these pirates have chosen to tangle with a legendary haul.
+
+Finally, with a satisfying kick, the last pirate is hurled out your airlock and sent spinning into the void as you clutch his graffiti-covered helmet. A trophy for your efforts.
+
+The hatch slams shut and the intrusive music fades as you gun the thrusters, Benchward bound.
+
+[[continue...->Exhausted from battle]]
+
+
 :: Mundane journey {"position":"400,600","size":"100,100"}
 Decacycles of empty space stand between you and your prize. You pray that your journey is mundane, but even mundanity has its own perils for a crew of five, pakt like sardines in a crushed tin box.
 
@@ -398,6 +473,20 @@ Both of the previous considerations are also aided by a speedy, efficient route.
 Members of the: Saddler Racing League Man Earlie Expeditionary Society Longhaulers Topography Society Union of Merchants …will keep your ship on track to your destination as quickly as possible.
 
 [[continue...->Cycles on end]]
+
+
+:: Nothing visible remains {"position":"50,1550","size":"100,100"}
+Nothing visible remains of the shipwreck that served as your landing pad and just as your lander's runners are about to be consumed by the muck, the thrusters fire, sending a spray of clay and mud as the lander tears itself away from this cursed planet.
+
+A terrible cacophony rattles through the whole ship as it rockets through the storms. Moments later, when the craft breaks through the atmosphere on a column of vapor, all goes quiet.
+
+Your crew stews in silence, perhaps rattled more from the insanity on display than the violence itself.
+
+As the scene replays in your heads, someone eventually cracks a smile. It's infectious and soon the thrill of the close call spreads through the rest of the group.
+
+Sacks of pearls come out. Yields are compared. Wagers are settled. And celebratory bottles are passed around.
+
+[[continue...->Breaching the storm]]
 
 
 :: Only Survivor {"position":"250,25","size":"100,100"}
@@ -452,6 +541,16 @@ As soon as the ship's sensors regain their clarity, a harsh blip abruptly cuts t
 [[continue...->Shiver runs]]
 
 
+:: Painted your target {"position":"300,1550","size":"100,100"}
+They painted your target, let you do the work, and have been lying in wait to purge the bloated belly of your post-mission ship.
+
+But you don't know any of this until you hear the unmistakable THUNK of the spearhook plant itself in the side of your ship.
+
+The flash of passing crotch-scooters outside your broadside portholes tip off that you've fallen into a Roving Terror trap.
+
+[[continue...->Roving Terror fearsome]]
+
+
 :: Pearls keep coming {"position":"600,1250","size":"100,100"}
 As the pearls keep coming, a giddy frantic energy swells amongst your crew. On top of the V-Shale haul, it's clear this is going to be a life-changing payout and it's difficult to not let the mind run wild with all the possibilities, fantasizing about the new ship or ships you're going to be able to purchase now.
 
@@ -463,9 +562,22 @@ But then, the radio crackles with a strange, barely intelligible message…
 
 
 :: RETREAT {"position":"575,275","size":"100,100"}
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144694748536377444/r2.jpg">
+
+
 For the rest of you, or those that couldn't scrounge enough cachet to squeeze through the blockade…you're all forced to retreat, rerouting out of Cove Stalker jurisdiction.
 
 [[continue...->Some fared better]]
+
+
+:: Roving Terror fearsome {"position":"425,1550","size":"100,100"}
+The Roving Terror are perhaps the most fearsome and storied of the pirate groups that skulk The Fringe, known primarily for their uncanny ability to take down large freighters and tourist vessels with their large, organized fleets in the early days.
+
+Now, they're a more scattered, ramshackle operation. They've been pushed out of hot spots by corpo-mercs and have scattered across the less-traveled routes where they lie in wait for enterprising drifters like yourselves.
+
+Roving Terror boarding tactics are a well-honed machine. Tether lines flung from crotch scooters latch on either flank, allowing boarding raiders to slide down them to work the hatches, regardless of whatever inertial maneuvers your pilot might try to pull.
+
+[[continue...->Even RT crew members]]
 
 
 :: Saints of {"position":"575,1400","size":"100,100"}
@@ -483,7 +595,7 @@ After attempting to pluck a meager pearl harvest by hand, the vets are left as d
 
 Some throw fists and one manages to crack a neck under heel, but it quickly becomes apparent that their efforts are better spent outrunning the psychotic fiends back to the lander.
 
-to be continued...
+[[continue...->Nothing visible remains]]
 
 
 :: Shiver runs {"position":"725,25","size":"100,100"}
@@ -516,7 +628,7 @@ A distorted voice rasps over the radio:
 
 
 :: Some fared better {"position":"400,475","size":"100,100"}
-<img width="400px" src="https://compendium.fringedrifters.com/storage/CKHEGROYGGG5khwjqhJvdxYQ239kg8RpGbcER5FA.png">
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144746175380078733/intermatrixnaut_Bullets_of_Renown_Railgun_munitions_fc798363-2078-4dcc-b755-6ad44c0c30e0.png">
 
 
 While some of you fared better than others, the Cove Stalker gauntlet has been crossed. Those who had to reroute have lost precious time and resource bandwidth. Those who were able to squeeze through and keep the route, remain better positioned to tackle the next obstacle: the long, dark of The Void.
@@ -524,7 +636,7 @@ While some of you fared better than others, the Cove Stalker gauntlet has been c
 [[continue...->Mundane journey]]
 
 
-:: State of disrepair {"position":"50,1050","size":"100,100"}
+:: State of disrepair {"position":"25,1050","size":"100,100"}
 Even in its state of disrepair, battered by centuries of celestial wear, the station might just be the most beautiful thing you've ever seen…and that's not only because of the payload it represents.
 
 Old World craftwork is a different breed. Organic in its design, full of flowing lines and intricate latticework, wrought of extinct materials forged with long-forgot methods - most notable of which: the Vellum Shale that pulled you out here.
@@ -567,6 +679,8 @@ The race is on: harvest as much as you can before the runners of your sleigh get
 
 
 :: THREATEN/AMBUSH {"position":"725,275","size":"100,100"}
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144694173031731220/ta2.jpg">
+
 It appears that a few of you, however, have a more aggressive option that no one else is quipt to attempt.
 
 Several crews have brought with them the confidence of one or more Freight Wars EVA vets, quipt with Kickback Bombshot launchers.
@@ -586,7 +700,7 @@ Too quick a target to paint, the pirate jets past the Rackworms and before the t
 [[continue...->Some fared better]]
 
 
-:: The harvest {"position":"525,1050","size":"100,100"}
+:: The harvest {"position":"475,1050","size":"100,100"}
 During the harvest, one of your crew drifts past the exploded hole in the side of the Surveryor Station. Succumbing to curiosity, they float closer to peer inside.
 
 Just inside the hole, the space opens up into an expansive staging bay - a large internal hanger built to launch and receive smaller craft.
