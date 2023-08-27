@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Vellum Shale.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Vellum Shale" startnode="1" creator="Twine" creator-version="2.7.0" format="Harlowe" format-version="3.3.6" ifid="815570E6-7E69-4848-91EB-9AD915085624" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+<tw-storydata name="Vellum Shale" startnode="1" creator="Twine" creator-version="2.7.0" format="Harlowe" format-version="3.3.6" ifid="815570E6-7E69-4848-91EB-9AD915085624" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
 tw-story {
 	background-color: #232320;
     font: 100% gt-pressura, ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
@@ -20,10 +20,11 @@ tw-story {
 
 
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">window.audio_background = new Audio('https://cdn.discordapp.com/attachments/1141853154707783770/1143704324766183444/Zypher-Pollux.mp3');
+window.audio_background.loop=true
 
 window.five_tone = new Audio('https://cdn.discordapp.com/attachments/1141853154707783770/1143267942507741345/Cove_Stalker_Signal_3.mp3');
 
-window.sound_on = false;</script><tw-passagedata pid="1" name="Intro" tags="" position="100,25" size="100,100">&lt;script&gt;
+window.sound_on = false;</script><tw-passagedata pid="1" name="Intro" tags="" position="125,350" size="100,100">&lt;script&gt;
 
 $(&#39;#sound-toggle&#39;).click(function() {
 	if(!window.sound_on){
@@ -49,7 +50,7 @@ To recap, Duzi had recently crossed paths with a solo drifter, who was left ratt
 
 The artifacts they left behind were integral to the reintroduction of spaceflight and other technologies, but many we&#39;ve yet to fully understand still remain scattered across the Occupied Spaces.
 
-[[continue...-&gt;Only Survivor]]</tw-passagedata><tw-passagedata pid="2" name="Only Survivor" tags="" position="250,25" size="100,100">&lt;script&gt;
+[[continue...-&gt;Only Survivor]]</tw-passagedata><tw-passagedata pid="2" name="Only Survivor" tags="" position="275,350" size="100,100">&lt;script&gt;
 
 $(&#39;#sound-toggle&#39;).click(function() {
 	if(!window.sound_on){
@@ -76,12 +77,12 @@ Now, there&#39;s not a drifter with fluid still in motion that&#39;d waver over 
 
 But a quest of this caliber is no solo operation. You need a crew. A close-knit and varied crew, ready to grind through the void and confront the unknown.
 
-[[continue...-&gt;Gathered A Crew]]
-</tw-passagedata><tw-passagedata pid="3" name="Gathered A Crew" tags="" position="400,25" size="100,100">
+[[continue...-&gt;Select Crew]]
+</tw-passagedata><tw-passagedata pid="3" name="Gathered A Crew" tags="" position="600,175" size="100,100">
 
 &lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1143694069445439518/P3.png&quot;&gt;
 
-Over the last few cycles, you&#39;ve gathered your crew. A lean team of five to tackle the perils that undoubtedly stand between you and this prospective bounty.
+Over the last few cycles, you&#39;ve gathered your crew ($name). A lean team of five to tackle the perils that undoubtedly stand between you and this prospective bounty.
 
 For some of you this was an easy task, a well-worn cohort of attuned drifters already in your pouch. For others, new alliances had to be forged - a twitchy endeavor, but smoothed by the promise of loot.
 
@@ -91,7 +92,9 @@ The buzzer blares and the hatch opens, releasing you to lash straps and mount yo
 
 Now all that&#39;s left is to see how you fare.
 
-[[continue...-&gt;Packed Tight]]</tw-passagedata><tw-passagedata pid="4" name="Packed Tight" tags="" position="575,25" size="100,100">&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1142960521734262864/intermatrixnaut_Setting_has_a_spaceship_in_deepspace_crossing_a_3515f2be-2e07-4f53-88ff-8eb3ed75c5d0.png&quot;&gt;
+[[continue...-&gt;Packed Tight]]
+
+points: $points</tw-passagedata><tw-passagedata pid="4" name="Packed Tight" tags="" position="725,300" size="100,100">&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1142960521734262864/intermatrixnaut_Setting_has_a_spaceship_in_deepspace_crossing_a_3515f2be-2e07-4f53-88ff-8eb3ed75c5d0.png&quot;&gt;
 
 Packed tight into your spacecraft, the course is plotted and the route quickly has you passing through the Faye Cloud - a field of dense gas suspended in space. The gas scrambles all scopes, preventing any communication, tracking, or computer-assisted navigation.
 
@@ -107,7 +110,8 @@ Your ship unceremoniously breaches the cloud. In an instant, the veil is lifted.
 
 As soon as the ship&#39;s sensors regain their clarity, a harsh blip abruptly cuts through the silence of the cabin. On the monitor blinks the last thing you want to see: two dots.
 
-[[continue...-&gt;Shiver runs]]</tw-passagedata><tw-passagedata pid="5" name="Shiver runs" tags="" position="725,25" size="100,100">&lt;script&gt;
+[[continue...-&gt;Shiver runs]]
+points: $points</tw-passagedata><tw-passagedata pid="5" name="Shiver runs" tags="" position="875,400" size="100,100">&lt;script&gt;
 $(&#39;#five-tone&#39;).click(function() {
 	window.five_tone.play();
 });
@@ -132,7 +136,8 @@ They&#39;ve since become the go-to enforcers for Beshtalan corporations looking 
 
 A distorted voice rasps over the radio:
 
-[[continue...-&gt;By the authority]]</tw-passagedata><tw-passagedata pid="6" name="By the authority" tags="" position="400,150" size="100,100">&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1143363232715784212/intermatrixnaut_Setting_two_tattered_and_rickety_dirty_smudged__d8f8554a-0b90-4b46-b084-48211a1fa1eb.png&quot;&gt;
+[[continue...-&gt;By the authority]]
+points: $points</tw-passagedata><tw-passagedata pid="6" name="By the authority" tags="" position="425,425" size="100,100">&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1143363232715784212/intermatrixnaut_Setting_two_tattered_and_rickety_dirty_smudged__d8f8554a-0b90-4b46-b084-48211a1fa1eb.png&quot;&gt;
 
 &quot;By the authority of Calson Wight, you are encroaching in private space. Quelch your burners, kips. We got you painted solid under company rails, so nothing greasy.&quot;
 
@@ -143,20 +148,28 @@ Left to their own devices, they&#39;ve become known for a tendency to shake down
 For the more combat-ready crews, this severely limits your options for recourse and they know it. At least if they were pirates, you could assume that they&#39;d want to keep your ship intact for requisition, but these guys don&#39;t give a fuck.
 
 Parlay is the only path forward…or is it?
+the variable: $canDiplomacy
 
-[[DIPLOMACY]]
-[[EVASION]]
-[[BARTER]]
-[[RETREAT]]
-[[THREATEN/AMBUSH]]
+(if:$canDiplomacy is 1)[[DIPLOMACY]] (if:$canDiplomacy is 0)[ ~~DIPLOMACY~~]
+(if:$canEvasion is 1)[[EVASION]] (if:$canEvasion is 0)[ ~~EVASION~~]
+(if:$canBarter is 1)[[BARTER]] (if:$canBarter is 0)[ ~~BARTER~~]
+(if:$canRetreat is 1)[[RETREAT]] (if:$canRetreat is 0)[ ~~RETREAT~~]
+(if:$canThreaten is 1)[[THREATEN/AMBUSH]] (if:$canThreaten is 0)[ ~~THREATEN/AMBUSH~~]
 
 
-</tw-passagedata><tw-passagedata pid="7" name="Some fared better" tags="" position="400,475" size="100,100">&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1144746175380078733/intermatrixnaut_Bullets_of_Renown_Railgun_munitions_fc798363-2078-4dcc-b755-6ad44c0c30e0.png&quot;&gt;
+</tw-passagedata><tw-passagedata pid="7" name="Some fared better" tags="" position="425,750" size="100,100">(set: $diceroll to (random:1,20))
+(if: $diceroll &lt; $p1strength)[(set:$points to ($points + $p1strength) - $diceroll))]
+
+
+&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1144746175380078733/intermatrixnaut_Bullets_of_Renown_Railgun_munitions_fc798363-2078-4dcc-b755-6ad44c0c30e0.png&quot;&gt;
 
 
 While some of you fared better than others, the Cove Stalker gauntlet has been crossed. Those who had to reroute have lost precious time and resource bandwidth. Those who were able to squeeze through and keep the route, remain better positioned to tackle the next obstacle: the long, dark of The Void.
 
-[[continue...-&gt;Mundane journey]]</tw-passagedata><tw-passagedata pid="8" name="DIPLOMACY" tags="" position="250,275" size="100,100">&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1144686055631630448/Diplomacy.jpg&quot;&gt;
+[[continue...-&gt;Mundane journey]]
+dice roll: $diceroll
+points: $points</tw-passagedata><tw-passagedata pid="8" name="DIPLOMACY" tags="" position="275,550" size="100,100">
+&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1144686055631630448/Diplomacy.jpg&quot;&gt;
 
 Looks like some of you have some friendly affiliations onboard. While Cove Stalkers are normally pretty indiscriminate with their application of coercion, the one thing they do fear is bad blood traveling up the chain to Beshtalan power brokers.
 
@@ -168,7 +181,8 @@ After trading banter and a few disparaging remarks directed toward the bulk of d
 
 But for those who don&#39;t have the luxury of influence or camaraderie with these goons, other measures will have to be taken.
 
-[[continue...-&gt;Some fared better]]</tw-passagedata><tw-passagedata pid="9" name="EVASION" tags="" position="400,275" size="100,100">&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1144686758999633950/EVASION.jpg&quot;&gt;
+[[continue...-&gt;Some fared better]]</tw-passagedata><tw-passagedata pid="9" name="EVASION" tags="" position="425,550" size="100,100">
+&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1144686758999633950/EVASION.jpg&quot;&gt;
 
 
 If diplomacy isn&#39;t your strong suit, perhaps you have a seasoned pilot in the chair. Those that bear the Topography Society, Longhaulers, Expeditionary Society, Slash Patcher, or - best of all - a Saddler Racing League insignia - might have what it takes to outmaneuver this standoff.
@@ -177,16 +191,20 @@ If successful, a double-roll and a cyclone dive, will juke your ship into their 
 
 Even retired Saddler&#39;s tend to keep a can of reactor juice in pocket and a dash of sauce on the burners will have you speeding on your way, leaving a scope-jamming shockwave in your wake.
 
-[[continue...-&gt;Some fared better]]</tw-passagedata><tw-passagedata pid="10" name="BARTER" tags="" position="100,275" size="100,100">&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1144687095932268554/BARTER.jpg&quot;&gt;
+[[continue...-&gt;Some fared better]]</tw-passagedata><tw-passagedata pid="10" name="BARTER" tags="" position="125,550" size="100,100">
+
+&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1144687095932268554/BARTER.jpg&quot;&gt;
 
 It&#39;s perhaps a bit of a longshot, but if a member of the Union of Merchants is in your crew, you can attempt to barter your way through.
 
-[[continue...-&gt;Some fared better]]</tw-passagedata><tw-passagedata pid="11" name="RETREAT" tags="" position="575,275" size="100,100">&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1144694748536377444/r2.jpg&quot;&gt;
+[[continue...-&gt;Some fared better]]</tw-passagedata><tw-passagedata pid="11" name="RETREAT" tags="" position="600,550" size="100,100">
+&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1144694748536377444/r2.jpg&quot;&gt;
 
 
 For the rest of you, or those that couldn&#39;t scrounge enough cachet to squeeze through the blockade…you&#39;re all forced to retreat, rerouting out of Cove Stalker jurisdiction.
 
-[[continue...-&gt;Some fared better]]</tw-passagedata><tw-passagedata pid="12" name="THREATEN/AMBUSH" tags="" position="725,275" size="100,100">&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1144694173031731220/ta2.jpg&quot;&gt;
+[[continue...-&gt;Some fared better]]</tw-passagedata><tw-passagedata pid="12" name="THREATEN/AMBUSH" tags="" position="750,550" size="100,100">
+&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1144694173031731220/ta2.jpg&quot;&gt;
 
 It appears that a few of you, however, have a more aggressive option that no one else is quipt to attempt.
 
@@ -204,17 +222,17 @@ There&#39;s no need to dabble with threats for this deadly drifter. The flare of
 
 Too quick a target to paint, the pirate jets past the Rackworms and before the thought to pivot can translate into defensive action, two shots have already been fired from the coil gun, vaporizing the mercs in their seats as their exploding reactors consume their ships.
 
-[[continue...-&gt;Some fared better]]</tw-passagedata><tw-passagedata pid="13" name="Mundane journey" tags="" position="400,600" size="100,100">Decacycles of empty space stand between you and your prize. You pray that your journey is mundane, but even mundanity has its own perils for a crew of five, pakt like sardines in a crushed tin box.
+[[continue...-&gt;Some fared better]]</tw-passagedata><tw-passagedata pid="13" name="Mundane journey" tags="" position="425,875" size="100,100">Decacycles of empty space stand between you and your prize. You pray that your journey is mundane, but even mundanity has its own perils for a crew of five, pakt like sardines in a crushed tin box.
 
 [[FOOD]]
 [[MENTAL]]
 [[MAINTENANCE]]
 [[NAVIGATION/SPEED]]
-[[LUCK]]</tw-passagedata><tw-passagedata pid="14" name="FOOD" tags="" position="75,725" size="100,100">Next to air and shelter, food is everything. Staving hunger is merely the baseline for what food can offer. Bad food makes one more susceptible to health issues. Tedious or drab food will deteriorate morale over time. A healthy, varied diet is a boon on both fronts.
+[[LUCK]]</tw-passagedata><tw-passagedata pid="14" name="FOOD" tags="" position="100,1000" size="100,100">Next to air and shelter, food is everything. Staving hunger is merely the baseline for what food can offer. Bad food makes one more susceptible to health issues. Tedious or drab food will deteriorate morale over time. A healthy, varied diet is a boon on both fronts.
 
 If you have graduates of the Borsh Conservatory of Gastrocraft or anyone proficient with a Machine Mouth, they&#39;ll serve you well on this journey.
 
-[[continue...-&gt;Cycles on end]]</tw-passagedata><tw-passagedata pid="15" name="MENTAL" tags="" position="225,725" size="100,100">Staying sharp and of sound mind is an often underestimated trial of the void. There&#39;s no escape from the walls of your craft. No respite from your crewmates. When pressures mount, there&#39;s no release valve in this airtight cannister.
+[[continue...-&gt;Cycles on end]]</tw-passagedata><tw-passagedata pid="15" name="MENTAL" tags="" position="250,1000" size="100,100">Staying sharp and of sound mind is an often underestimated trial of the void. There&#39;s no escape from the walls of your craft. No respite from your crewmates. When pressures mount, there&#39;s no release valve in this airtight cannister.
 
 Those who bear the insignias of: Forsaken Bench The Path Transcendentalists Void Drifter Survivalist Guild Free Fringe …are well-versed in the mental marathon of the longhaul and can help their crewmates weather the psychological storm.
 
@@ -222,15 +240,15 @@ Toxic personalities, however, can infect the whole crew.
 
 Those who brandish: Combustible Dark Ether House Slash Patcher League of Channel Carver Ji …badges tend to deflect their inner turmoil with aggression and condescension, poisoning the fragile vibe.
 
-[[continue...-&gt;Cycles on end]]</tw-passagedata><tw-passagedata pid="16" name="MAINTENANCE" tags="" position="375,725" size="100,100">Undoubtedly issues with the ship will arise on a journey this long and your crew&#39;s proficiency with maintenance determines how quickly problems can be resolved. Those with EVA skill and mech suits fare particularly well on this front, keeping exterior operations quick and safe. Additionally, the expertise of a member of the Cog Crew or Engineers Guild will keep your craft in working order.
+[[continue...-&gt;Cycles on end]]</tw-passagedata><tw-passagedata pid="16" name="MAINTENANCE" tags="" position="400,1000" size="100,100">Undoubtedly issues with the ship will arise on a journey this long and your crew&#39;s proficiency with maintenance determines how quickly problems can be resolved. Those with EVA skill and mech suits fare particularly well on this front, keeping exterior operations quick and safe. Additionally, the expertise of a member of the Cog Crew or Engineers Guild will keep your craft in working order.
 
-[[continue...-&gt;Cycles on end]]</tw-passagedata><tw-passagedata pid="17" name="NAVIGATION/SPEED" tags="" position="525,725" size="100,100">Both of the previous considerations are also aided by a speedy, efficient route.
+[[continue...-&gt;Cycles on end]]</tw-passagedata><tw-passagedata pid="17" name="NAVIGATION/SPEED" tags="" position="550,1000" size="100,100">Both of the previous considerations are also aided by a speedy, efficient route.
 
 Members of the: Saddler Racing League Man Earlie Expeditionary Society Longhaulers Topography Society Union of Merchants …will keep your ship on track to your destination as quickly as possible.
 
-[[continue...-&gt;Cycles on end]]</tw-passagedata><tw-passagedata pid="18" name="LUCK" tags="" position="675,725" size="100,100">And lastly, regardless of your preparations or expertise, a little luck can go a long way. The spirits of the Patron Saints of Decompression on the Margul Scavengers, of Air Supply on the Motley Wannabes, and of Sanity on the Saints of the Round Power give those crews an extra boost for a frictionless passage.
+[[continue...-&gt;Cycles on end]]</tw-passagedata><tw-passagedata pid="18" name="LUCK" tags="" position="700,1000" size="100,100">And lastly, regardless of your preparations or expertise, a little luck can go a long way. The spirits of the Patron Saints of Decompression on the Margul Scavengers, of Air Supply on the Motley Wannabes, and of Sanity on the Saints of the Round Power give those crews an extra boost for a frictionless passage.
 
-[[continue...-&gt;Cycles on end]]</tw-passagedata><tw-passagedata pid="19" name="Cycles on end" tags="" position="375,925" size="100,100">Finally, after enduring cycles on end, comes the sight every longhauling drifter yearns to see: a flickering speck in the distance.
+[[continue...-&gt;Cycles on end]]</tw-passagedata><tw-passagedata pid="19" name="Cycles on end" tags="" position="400,1200" size="100,100">Finally, after enduring cycles on end, comes the sight every longhauling drifter yearns to see: a flickering speck in the distance.
 
 The speck grows into a swirling green orb, revealing itself to be a tumultuous gas planet, roiling with electric storms. Your crew gathers around the cockpit glass to silently behold your long-awaited destination.
 
@@ -242,7 +260,7 @@ Hidden in low orbit amidst the spectral haze, floats the fabled craft: the ancie
 
 You dive down toward it.
 
-[[continue...-&gt;State of disrepair]]</tw-passagedata><tw-passagedata pid="20" name="State of disrepair" tags="" position="25,1050" size="100,100">Even in its state of disrepair, battered by centuries of celestial wear, the station might just be the most beautiful thing you&#39;ve ever seen…and that&#39;s not only because of the payload it represents.
+[[continue...-&gt;State of disrepair]]</tw-passagedata><tw-passagedata pid="20" name="State of disrepair" tags="" position="50,1325" size="100,100">Even in its state of disrepair, battered by centuries of celestial wear, the station might just be the most beautiful thing you&#39;ve ever seen…and that&#39;s not only because of the payload it represents.
 
 Old World craftwork is a different breed. Organic in its design, full of flowing lines and intricate latticework, wrought of extinct materials forged with long-forgot methods - most notable of which: the Vellum Shale that pulled you out here.
 
@@ -262,7 +280,7 @@ But reams of Shale still hang from the masts and this is all that matters.
 
 Floatsuits are donned. Tools are prepped. Coils of hose stacked on their spools. It&#39;s time to get to work. 
 
-[[continue...-&gt;Harvest begins]]</tw-passagedata><tw-passagedata pid="21" name="Harvest begins" tags="" position="175,1050" size="100,100">And so, the harvest begins. Using your ship as an EVA platform, you work your way through the labyrinth of masts and shale sheets.
+[[continue...-&gt;Harvest begins]]</tw-passagedata><tw-passagedata pid="21" name="Harvest begins" tags="" position="200,1325" size="100,100">And so, the harvest begins. Using your ship as an EVA platform, you work your way through the labyrinth of masts and shale sheets.
 
 You work as a team to unhook the sheets, trim them down, and roll them into neat reams for packing in your ship&#39;s cargo carriage.
 
@@ -270,7 +288,7 @@ The super-light and pliable V-Shale comes down relatively easily in zero-g, but 
 
 This is really a case of how suited and well-quipt your team is to conduct an efficient EVA operation.
 
-[[continue-&gt; Will aid your work]]</tw-passagedata><tw-passagedata pid="22" name=" Will aid your work" tags="" position="325,1050" size="100,100">&lt;div style=&quot;display:flex; justify-content:space-between&quot;&gt;
+[[continue-&gt; Will aid your work]]</tw-passagedata><tw-passagedata pid="22" name=" Will aid your work" tags="" position="350,1325" size="100,100">&lt;div style=&quot;display:flex; justify-content:space-between&quot;&gt;
 &lt;img height=&quot;100px&quot; src=&quot;https://compendium.fringedrifters.com/storage/r165.png&quot;&gt;
 &lt;img height=&quot;100px&quot; src=&quot;https://compendium.fringedrifters.com/storage/r516.png&quot;&gt;
 &lt;img height=&quot;100px&quot; src=&quot;https://compendium.fringedrifters.com/storage/r506.png&quot;&gt;
@@ -287,7 +305,7 @@ Spirits are flying high as your cargo carriage fills. All that remains is to kee
 
 But then one of your crew makes an intriguing discovery.
 
-[[continue...-&gt;The harvest]]</tw-passagedata><tw-passagedata pid="23" name="The harvest" tags="" position="475,1050" size="100,100">During the harvest, one of your crew drifts past the exploded hole in the side of the Surveryor Station. Succumbing to curiosity, they float closer to peer inside.
+[[continue...-&gt;The harvest]]</tw-passagedata><tw-passagedata pid="23" name="The harvest" tags="" position="500,1325" size="100,100">During the harvest, one of your crew drifts past the exploded hole in the side of the Surveryor Station. Succumbing to curiosity, they float closer to peer inside.
 
 Just inside the hole, the space opens up into an expansive staging bay - a large internal hanger built to launch and receive smaller craft.
 
@@ -302,7 +320,7 @@ It&#39;s clear some sort of scrape broke out, but less clear is the reason why. 
 But the how and why are the last things on your mind as you gaze upon the scene, for there is something far more captivating than the carnage itself.
 
 [[continue...-&gt;Covering the floor]]
-</tw-passagedata><tw-passagedata pid="24" name="Covering the floor" tags="" position="600,1050" size="100,100">Covering the entirety of the floor and beginning to creep up the hangar walls sprawls some kind of bioactive mold. The deep purple carpet pulses with intermittent bioluminescence, enough to softly illuminate the cavernous space with its rippling glow.
+</tw-passagedata><tw-passagedata pid="24" name="Covering the floor" tags="" position="625,1325" size="100,100">Covering the entirety of the floor and beginning to creep up the hangar walls sprawls some kind of bioactive mold. The deep purple carpet pulses with intermittent bioluminescence, enough to softly illuminate the cavernous space with its rippling glow.
 
 You move forward to get a closer look.
 
@@ -312,7 +330,7 @@ You also notice that the pulsing lights of the mold all seem to ripple forth fro
 
 Your face contorts in puzzlement. Mud? Where&#39;d these drifters find mud. But the thought is quickly wiped when you spot the bulging harvest sack strapped to her hip.
 
-[[continue...-&gt;Hunting knife]]</tw-passagedata><tw-passagedata pid="25" name="Hunting knife" tags="" position="775,1050" size="100,100">With the flick of your hunting knife, the sack is freed from its moldy casing and you peer inside to find a cache of brilliant blue bog pearls, each about the size of a fist, softly glowing.
+[[continue...-&gt;Hunting knife]]</tw-passagedata><tw-passagedata pid="25" name="Hunting knife" tags="" position="800,1325" size="100,100">With the flick of your hunting knife, the sack is freed from its moldy casing and you peer inside to find a cache of brilliant blue bog pearls, each about the size of a fist, softly glowing.
 
 Your eyes go wide with greed.
 
@@ -320,7 +338,7 @@ Kamrean bog pearls fetch a healthy price with Beshtalan jewelers, but those are 
 
 Invigorated by the surprise prospect, you make your way back to your ship and the rest of your crew…but not before prudently relieving the dead drifter of her chest-mounted nav module.
 
-[[continue...-&gt;Back on ship]]</tw-passagedata><tw-passagedata pid="26" name="Back on ship" tags="" position="900,1175" size="100,100">Back on your ship, the new findings are presented to the entire crew.
+[[continue...-&gt;Back on ship]]</tw-passagedata><tw-passagedata pid="26" name="Back on ship" tags="" position="925,1450" size="100,100">Back on your ship, the new findings are presented to the entire crew.
 
 It appears the gas planet is not a gas planet at all, but hides a swampy surface beneath it&#39;s planet-wide storms. This is confirmed when the dead drifter&#39;s nav module is plugged into the ship&#39;s computer, indicating the precise coordinates of their landing site.
 
@@ -328,7 +346,7 @@ Debate swirls around the question of what to do with this information. You&#39;v
 
 But on the [[other hand-&gt;Consensus acheived]], a longhaul passage of this caliber is no easy feat and none of you are likely to ever drift through this deep frontier space ever again.
 
-Standard bog pearls would be one thing, but this giant, blue variant is likely indigenous to this far-flung planet. Your harvest might be the only cache ever pulled and a quick dip down could effectively double your yield.</tw-passagedata><tw-passagedata pid="27" name="Consensus acheived" tags="" position="50,1250" size="100,100">Ultimately, a consensus is achieved quickly. True leanmeat drifters that you are, you can&#39;t resist a tasty prospect.
+Standard bog pearls would be one thing, but this giant, blue variant is likely indigenous to this far-flung planet. Your harvest might be the only cache ever pulled and a quick dip down could effectively double your yield.</tw-passagedata><tw-passagedata pid="27" name="Consensus acheived" tags="" position="75,1525" size="100,100">Ultimately, a consensus is achieved quickly. True leanmeat drifters that you are, you can&#39;t resist a tasty prospect.
 
 The landing craft is prepped and your crew suits up for surface venture.
 
@@ -346,11 +364,11 @@ But despite the tumult, you pull through, trusting your scopes to lead you to th
 
 Those who wear the Wings badge of atmospheric pilots are able to command the craft better than most and Topography Society members keep you on course, despite the chaotic weather.
 
-[[continue...-&gt;Storm canopy]]</tw-passagedata><tw-passagedata pid="28" name="Go home" tags="" position="1175,1325" size="100,100">Eventually, the flickering lights of the Bench appear in the distance, a beacon of hope in the darkness. Your pilot cracks a smile and knowing looks are exchanged.
+[[continue...-&gt;Storm canopy]]</tw-passagedata><tw-passagedata pid="28" name="Go home" tags="" position="1200,1600" size="100,100">Eventually, the flickering lights of the Bench appear in the distance, a beacon of hope in the darkness. Your pilot cracks a smile and knowing looks are exchanged.
 
 There&#39;s no need for words, not that any could express the utter relief and thrilling optimism you feel knowing how good that first mug is gonna taste when you return to the Sowing Season to regale Duzi with your success, pockets bulging with fresh cash.
 
-THE END.</tw-passagedata><tw-passagedata pid="29" name="Storm canopy" tags="" position="200,1250" size="100,100">&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1142851250065526904/Swamp.png&quot;&gt;
+THE END.</tw-passagedata><tw-passagedata pid="29" name="Storm canopy" tags="" position="225,1525" size="100,100">&lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1142851250065526904/Swamp.png&quot;&gt;
 
 As you break through the storm canopy, you notice a ship-wreck on the planet&#39;s surface - a landing craft, similar to your own, half-submerged in the muck and covered in purple mold.
 
@@ -364,7 +382,7 @@ Slowly and carefully, your landing craft descends precisely atop the wreckage. I
 
 The race is on: harvest as much as you can before the runners of your sleigh get mired in the mud, trapping you here forever.
 
-[[continue...-&gt;Crew debarks]]</tw-passagedata><tw-passagedata pid="30" name="Crew debarks" tags="" position="325,1250" size="100,100">Your crew hastily debarks and sets to work.
+[[continue...-&gt;Crew debarks]]</tw-passagedata><tw-passagedata pid="30" name="Crew debarks" tags="" position="350,1525" size="100,100">Your crew hastily debarks and sets to work.
 
 With the toxic gas storms shrouding visibility and every movement requiring a toilsome slog through the muck, it begins to feel like this whole side quest might not have been worth it.
 
@@ -372,7 +390,7 @@ But then the first pearl comes to the surface, plucked from the ripe, fleshy sta
 
 The site has proven to be bountiful and the ease of harvest wipes away some of the tension. Your crew pushes harder to milk their small window for all its worth.
 
-[[continue...-&gt;Mining veterans]]</tw-passagedata><tw-passagedata pid="31" name="Mining veterans" tags="" position="450,1250" size="100,100">&lt;div style=&quot;display:flex; justify-content:space-between&quot;&gt;
+[[continue...-&gt;Mining veterans]]</tw-passagedata><tw-passagedata pid="31" name="Mining veterans" tags="" position="475,1525" size="100,100">&lt;div style=&quot;display:flex; justify-content:space-between&quot;&gt;
 &lt;img height=&quot;100px&quot; src=&quot;https://compendium.fringedrifters.com/storage/IBQ0HhhPRnvFN7V0SwZ2TG79Vx1HNNJNRMEGhPbe.png&quot;&gt;
 &lt;img height=&quot;100px&quot; src=&quot;https://compendium.fringedrifters.com/storage/figpFXR9L5GmBDrdUGZDX4hHgwMtSyrGkDQNDgel.png&quot;&gt;
 &lt;img height=&quot;100px&quot; src=&quot;https://compendium.fringedrifters.com/storage/qTSRmPU4fwCYywoAJA2m30dWMqGaWsdZOWbzhht2.png&quot;&gt;
@@ -401,13 +419,13 @@ Tools like the Ball Claw allow you to reach the deeper crevices and the Shriek a
 
 [[continue...-&gt;Pearls keep coming]]
 
-</tw-passagedata><tw-passagedata pid="32" name="Pearls keep coming" tags="" position="600,1250" size="100,100">As the pearls keep coming, a giddy frantic energy swells amongst your crew. On top of the V-Shale haul, it&#39;s clear this is going to be a life-changing payout and it&#39;s difficult to not let the mind run wild with all the possibilities, fantasizing about the new ship or ships you&#39;re going to be able to purchase now.
+</tw-passagedata><tw-passagedata pid="32" name="Pearls keep coming" tags="" position="625,1525" size="100,100">As the pearls keep coming, a giddy frantic energy swells amongst your crew. On top of the V-Shale haul, it&#39;s clear this is going to be a life-changing payout and it&#39;s difficult to not let the mind run wild with all the possibilities, fantasizing about the new ship or ships you&#39;re going to be able to purchase now.
 
 But then, the radio crackles with a strange, barely intelligible message…
 
 &quot;Mutineers aloft. Come to the mouth of Grol the shit-mucker and feed our forsaken fury…&quot;
 
-[[continue...-&gt;Crew pauses]]</tw-passagedata><tw-passagedata pid="33" name="Crew pauses" tags="" position="725,1250" size="100,100">At first, there&#39;s confusion. Your crew pauses their work, accusing one another of trolling the radio.
+[[continue...-&gt;Crew pauses]]</tw-passagedata><tw-passagedata pid="33" name="Crew pauses" tags="" position="750,1525" size="100,100">At first, there&#39;s confusion. Your crew pauses their work, accusing one another of trolling the radio.
 
 But then one of you notices a flicker of movement in the gas. Everyone stops and hushes, peering into the churning clouds…
 
@@ -415,7 +433,7 @@ There&#39;s nothing discernible until a flash of illumination beams through the 
 
 The small blaze flickers for half a second before it ERUPTS into an explosion of fire, tracing lines like spiderwebs through the gas. The chain reaction sweeps toward you, consuming your entire crew in a swirling inferno.
 
-[[continue...-&gt;Fire dissipates]]</tw-passagedata><tw-passagedata pid="34" name="Fire dissipates" tags="" position="50,1400" size="100,100">Fortunately the fire quickly dissipates as the gas burns off, sending the blaze burning upward in an arcing column, reaching toward the heavens.
+[[continue...-&gt;Fire dissipates]]</tw-passagedata><tw-passagedata pid="34" name="Fire dissipates" tags="" position="75,1675" size="100,100">Fortunately the fire quickly dissipates as the gas burns off, sending the blaze burning upward in an arcing column, reaching toward the heavens.
 
 Your crew frantically scans your surroundings for signs of the threat, but the churning gas makes visibility beyond a few meters impossible…though even those with hyperspec glass aren&#39;t picking up anything above the surface of the muck.
 
@@ -425,7 +443,7 @@ Suddenly one of you is pulled into the muck, sucked into a scrappy grapple. The 
 
 The onlookers stand, weapons poised…hesitant to shoot or swipe lest they kill their crewmate, hesitant to enter the fray lest they become victims themselves.
 
-[[continue...-&gt;Crewmate wrests free]]</tw-passagedata><tw-passagedata pid="35" name="Crewmate wrests free" tags="" position="200,1400" size="100,100">Eventually your crewmate wrests free of the attack and rises above the surface of the mud, staggering back to catch their breath.
+[[continue...-&gt;Crewmate wrests free]]</tw-passagedata><tw-passagedata pid="35" name="Crewmate wrests free" tags="" position="225,1675" size="100,100">Eventually your crewmate wrests free of the attack and rises above the surface of the mud, staggering back to catch their breath.
 
 But the attacker rises just behind…a monstrous undulating heap. As it heaves itself forward, several more muddy figures join it.
 
@@ -439,7 +457,7 @@ They charge with frenzied momentum - and as the mud drips away it reveals the va
 
 These must be survivors from the previous mission…greed-fueled mutineers fatefully left marooned. How they&#39;ve survived so long in this torrential hellscape eludes explanation, but it&#39;s clearly taken a toll on their minds and bodies, as evidenced by their incessant drive forward.
 
-[[continue...-&gt;They&#39;re unarmed]]</tw-passagedata><tw-passagedata pid="36" name="They&#39;re unarmed" tags="" position="325,1400" size="100,100">They&#39;re unarmed, but they rush you anyway, clawing with their hands, powered by a fearlessness that feels inhuman.
+[[continue...-&gt;They&#39;re unarmed]]</tw-passagedata><tw-passagedata pid="36" name="They&#39;re unarmed" tags="" position="350,1675" size="100,100">They&#39;re unarmed, but they rush you anyway, clawing with their hands, powered by a fearlessness that feels inhuman.
 
 With a sharp CRACK, the first shot wakes the rest of your crew from their daze. They watch as the mud-covered man crumples in a heap.
 
@@ -456,7 +474,7 @@ Well-armed crews instinctively open fire, unloading on the staggering horde - Ko
 
 An explosive round from a roulette gun flings limbs in all directions, slapping back down to the surface in a cascade of thrown mud and flesh.
 
-[[continue...-&gt;Blades come out]]</tw-passagedata><tw-passagedata pid="37" name="Blades come out" tags="" position="450,1400" size="100,100">&lt;div style=&quot;display:flex; justify-content:space-between&quot;&gt;
+[[continue...-&gt;Blades come out]]</tw-passagedata><tw-passagedata pid="37" name="Blades come out" tags="" position="475,1675" size="100,100">&lt;div style=&quot;display:flex; justify-content:space-between&quot;&gt;
 &lt;img height=&quot;100px&quot; src=&quot;https://compendium.fringedrifters.com/storage/r515.png&quot;&gt;
 &lt;img height=&quot;100px&quot; src=&quot;https://compendium.fringedrifters.com/storage/r513.png&quot;&gt;
 &lt;img height=&quot;100px&quot; src=&quot;https://compendium.fringedrifters.com/storage/Lz8ottNRA8sgGxArre0T3mJVp3PgolIPyAhMCiND.png&quot;&gt;
@@ -483,7 +501,7 @@ For the rare few brandishing a death beam, the body-mounted capacitor can only f
 
 Even those only brandishing hooks and claws find it an easy task to cripple these emaciated fools.
 
-[[continue...-&gt;Saints of]]</tw-passagedata><tw-passagedata pid="38" name="Saints of" tags="" position="575,1400" size="100,100">&lt;div style=&quot;display:flex; justify-content:space-between&quot;&gt;
+[[continue...-&gt;Saints of]]</tw-passagedata><tw-passagedata pid="38" name="Saints of" tags="" position="600,1675" size="100,100">&lt;div style=&quot;display:flex; justify-content:space-between&quot;&gt;
 &lt;img height=&quot;100px&quot; src=&quot;https://compendium.fringedrifters.com/storage/n9UuPFo9OlLxxvUlN5KN0gSz8ubh77pbjCTuFCNu.png&quot;&gt;
 &lt;img height=&quot;100px&quot; src=&quot;https://compendium.fringedrifters.com/storage/ZamvzpHPBxdYMqGT4iTthxoEvvDabCNGaNHcAWeb.png&quot;&gt;
 
@@ -497,7 +515,7 @@ After attempting to pluck a meager pearl harvest by hand, the vets are left as d
 
 Some throw fists and one manages to crack a neck under heel, but it quickly becomes apparent that their efforts are better spent outrunning the psychotic fiends back to the lander.
 
-[[continue...-&gt;Nothing visible remains]]</tw-passagedata><tw-passagedata pid="39" name="Nothing visible remains" tags="" position="50,1550" size="100,100">Nothing visible remains of the shipwreck that served as your landing pad and just as your lander&#39;s runners are about to be consumed by the muck, the thrusters fire, sending a spray of clay and mud as the lander tears itself away from this cursed planet.
+[[continue...-&gt;Nothing visible remains]]</tw-passagedata><tw-passagedata pid="39" name="Nothing visible remains" tags="" position="75,1825" size="100,100">Nothing visible remains of the shipwreck that served as your landing pad and just as your lander&#39;s runners are about to be consumed by the muck, the thrusters fire, sending a spray of clay and mud as the lander tears itself away from this cursed planet.
 
 A terrible cacophony rattles through the whole ship as it rockets through the storms. Moments later, when the craft breaks through the atmosphere on a column of vapor, all goes quiet.
 
@@ -507,7 +525,7 @@ As the scene replays in your heads, someone eventually cracks a smile. It&#39;s 
 
 Sacks of pearls come out. Yields are compared. Wagers are settled. And celebratory bottles are passed around.
 
-[[continue...-&gt;Breaching the storm]]</tw-passagedata><tw-passagedata pid="40" name="Breaching the storm" tags="" position="175,1550" size="100,100">After breaching the storm, the cruise back to your ship is a smooth, silent breeze.
+[[continue...-&gt;Breaching the storm]]</tw-passagedata><tw-passagedata pid="40" name="Breaching the storm" tags="" position="200,1825" size="100,100">After breaching the storm, the cruise back to your ship is a smooth, silent breeze.
 
 The lander docks. The suits are decontaminated. And the bevy of pearls joins the stacks of Vellum Shale in the cargo carriage.
 
@@ -515,19 +533,19 @@ The squares get punched and the thruster does a nice strong burn. You&#39;re hom
 
 In reality, however, you picked up an undetected tail before you even reached the Surveyor Station. Pirates have been following you for several cycles now.
 
-[[continue...-&gt;Painted your target]]</tw-passagedata><tw-passagedata pid="41" name="Painted your target" tags="" position="300,1550" size="100,100">They painted your target, let you do the work, and have been lying in wait to purge the bloated belly of your post-mission ship.
+[[continue...-&gt;Painted your target]]</tw-passagedata><tw-passagedata pid="41" name="Painted your target" tags="" position="325,1825" size="100,100">They painted your target, let you do the work, and have been lying in wait to purge the bloated belly of your post-mission ship.
 
 But you don&#39;t know any of this until you hear the unmistakable THUNK of the spearhook plant itself in the side of your ship.
 
 The flash of passing crotch-scooters outside your broadside portholes tip off that you&#39;ve fallen into a Roving Terror trap.
 
-[[continue...-&gt;Roving Terror fearsome]]</tw-passagedata><tw-passagedata pid="42" name="Roving Terror fearsome" tags="" position="425,1550" size="100,100">The Roving Terror are perhaps the most fearsome and storied of the pirate groups that skulk The Fringe, known primarily for their uncanny ability to take down large freighters and tourist vessels with their large, organized fleets in the early days.
+[[continue...-&gt;Roving Terror fearsome]]</tw-passagedata><tw-passagedata pid="42" name="Roving Terror fearsome" tags="" position="450,1825" size="100,100">The Roving Terror are perhaps the most fearsome and storied of the pirate groups that skulk The Fringe, known primarily for their uncanny ability to take down large freighters and tourist vessels with their large, organized fleets in the early days.
 
 Now, they&#39;re a more scattered, ramshackle operation. They&#39;ve been pushed out of hot spots by corpo-mercs and have scattered across the less-traveled routes where they lie in wait for enterprising drifters like yourselves.
 
 Roving Terror boarding tactics are a well-honed machine. Tether lines flung from crotch scooters latch on either flank, allowing boarding raiders to slide down them to work the hatches, regardless of whatever inertial maneuvers your pilot might try to pull.
 
-[[continue...-&gt;Even RT crew members]]</tw-passagedata><tw-passagedata pid="43" name="Even RT crew members" tags="" position="550,1575" size="100,100">And even if you&#39;ve got Roving Terror members on your crew, there&#39;s no platform for diplomacy here. A signature of a Terror raid is the radio jammers they deploy, blasting abrasive music over your ship&#39;s comms.
+[[continue...-&gt;Even RT crew members]]</tw-passagedata><tw-passagedata pid="43" name="Even RT crew members" tags="" position="575,1850" size="100,100">And even if you&#39;ve got Roving Terror members on your crew, there&#39;s no platform for diplomacy here. A signature of a Terror raid is the radio jammers they deploy, blasting abrasive music over your ship&#39;s comms.
 
 But if you&#39;ve got pirates or former pirates in tow, what they can offer is intelligence. They know the routine and how to best combat it.
 
@@ -537,7 +555,7 @@ And ultimately, what these pirates don&#39;t necessarily anticipate is that - af
 
 The finish line is in sight. It&#39;s ride or die now.
 
-[[continue...-&gt;EVA-combat specialists]]</tw-passagedata><tw-passagedata pid="44" name="EVA-combat specialists" tags="" position="675,1575" size="100,100">Any &#39;&#39;EVA-combat specialists&#39;&#39; on your crew leap to action, putting up a strong defensive front. The &#39;&#39;bombshots&#39;&#39; are back in business, picking off scooters before they can send their crabs down the line.
+[[continue...-&gt;EVA-combat specialists]]</tw-passagedata><tw-passagedata pid="44" name="EVA-combat specialists" tags="" position="700,1850" size="100,100">Any &#39;&#39;EVA-combat specialists&#39;&#39; on your crew leap to action, putting up a strong defensive front. The &#39;&#39;bombshots&#39;&#39; are back in business, picking off scooters before they can send their crabs down the line.
 
 &#39;&#39;Mech suits&#39;&#39; facilitate spacewalk agility allowing you to go toe-to-toe with the parasitic attackers latching onto your chassis.
 
@@ -551,7 +569,7 @@ Blood and viscera can be cleaned. A breached hull cannot.
 
 &#39;&#39;Blades and bludgeoning tools&#39;&#39; become the weapons of choice and the cramped interior of your ship becomes a wall-to-wall bloodbath.
 
-[[continue...-&gt;More docile crew]]</tw-passagedata><tw-passagedata pid="45" name="More docile crew" tags="" position="825,1575" size="100,100">Expecting a much more docile crew of explorers, the Roving Terror are taken off-guard by your payload-fueled fervor. There&#39;s too much at stake to allow your labors to be plucked from the sky and your crew expresses this with alarming brutality.
+[[continue...-&gt;More docile crew]]</tw-passagedata><tw-passagedata pid="45" name="More docile crew" tags="" position="850,1850" size="100,100">Expecting a much more docile crew of explorers, the Roving Terror are taken off-guard by your payload-fueled fervor. There&#39;s too much at stake to allow your labors to be plucked from the sky and your crew expresses this with alarming brutality.
 
 A drifter with a full cargo carriage is a dangerous beast and these pirates have chosen to tangle with a legendary haul.
 
@@ -559,7 +577,7 @@ Finally, with a satisfying kick, the last pirate is hurled out your airlock and 
 
 The hatch slams shut and the intrusive music fades as you gun the thrusters, Benchward bound.
 
-[[continue...-&gt;Exhausted from battle]]</tw-passagedata><tw-passagedata pid="46" name="Exhausted from battle" tags="" position="950,1575" size="100,100">Exhausted from the battle, your crew collapses in relief, too tired to care that the walls have been painted with pirate blood.
+[[continue...-&gt;Exhausted from battle]]</tw-passagedata><tw-passagedata pid="46" name="Exhausted from battle" tags="" position="975,1850" size="100,100">Exhausted from the battle, your crew collapses in relief, too tired to care that the walls have been painted with pirate blood.
 
 All that matters is that the payload is safe.
 
@@ -567,7 +585,54 @@ Regardless of how you started this journey, everyone is now fast friends, bonded
 
 You could eat nothing but everfuel bars for cycles on end at this point. The Vellum Shale and bog pearls cradled safely beneath your feet provide all the satisfaction you could ever need.
 
-[[continue...-&gt;Go home]]</tw-passagedata></tw-storydata>
+[[continue...-&gt;Go home]]</tw-passagedata><tw-passagedata pid="47" name="Select Crew" tags="" position="350,125" size="100,100">
+[[Crew 1]]
+
+[[Crew 2]]
+
+[[Crew 3]]
+
+[[Crew 4]]</tw-passagedata><tw-passagedata pid="48" name="Crew 1" tags="" position="425,0" size="100,100">(set:$name to &quot;A Team&quot;)
+(set:$points to 0)
+(set:$p1strength to 15)
+(set:$canBarter to 1)
+(set:$canDiplomacy to 0)
+(set:$canEvasion to 1)
+(set:$canRetreat to 0)
+(set:$canThreaten to 1)
+
+(go-to:&quot;Gathered A Crew&quot;)</tw-passagedata><tw-passagedata pid="49" name="Crew 2" tags="" position="550,0" size="100,100">(set:$name to &quot;B Team&quot;)
+(set:$points to 0)
+(set:$p1strength to 12)
+(set:$canBarter to 1)
+(set:$canDiplomacy to 1)
+(set:$canEvasion to 1)
+(set:$canRetreat to 0)
+(set:$canThreaten to 0)
+
+
+(go-to:&quot;Gathered A Crew&quot;)</tw-passagedata><tw-passagedata pid="50" name="Crew 3" tags="" position="675,0" size="100,100">(set:$name to &quot;C Team&quot;)
+(set:$points to 0)
+(set:$p1strength to 13)
+(set:$canBarter to 0)
+(set:$canDiplomacy to 1)
+(set:$canEvasion to 1)
+(set:$canRetreat to 0)
+(set:$canThreaten to 1)
+
+
+
+(go-to:&quot;Gathered A Crew&quot;)</tw-passagedata><tw-passagedata pid="51" name="Crew 4" tags="" position="800,25" size="100,100">(set:$name to &quot;D Team&quot;)
+(set:$points to 0)
+(set:$p1strength to 18)
+(set:$canBarter to 1)
+(set:$canDiplomacy to 0)
+(set:$canEvasion to 0)
+(set:$canRetreat to 0)
+(set:$canThreaten to 1)
+
+(go-to:&quot;Gathered A Crew&quot;)
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
