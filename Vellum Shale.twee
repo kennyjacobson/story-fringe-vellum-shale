@@ -6,8 +6,11 @@ Vellum Shale
 {
   "ifid": "815570E6-7E69-4848-91EB-9AD915085624",
   "format": "Harlowe",
-  "format-version": "3.3.6",
+  "format-version": "3.3.7",
   "start": "Intro",
+  "tag-colors": {
+    "StatusBar": "red"
+  },
   "zoom": 0.6
 }
 
@@ -34,9 +37,7 @@ But then one of your crew makes an intriguing discovery.
 
 
 :: BARTER {"position":"125,550","size":"100,100"}
-
-
-<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144687095932268554/BARTER.jpg">
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144687095932268554/BARTER.jpg">
 
 It's perhaps a bit of a longshot, but if a member of the Union of Merchants is in your crew, you can attempt to barter your way through.
 
@@ -99,7 +100,7 @@ In reality, however, you picked up an undetected tail before you even reached th
 
 
 :: By the authority {"position":"425,425","size":"100,100"}
-<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1143363232715784212/intermatrixnaut_Setting_two_tattered_and_rickety_dirty_smudged__d8f8554a-0b90-4b46-b084-48211a1fa1eb.png">
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1143363232715784212/intermatrixnaut_Setting_two_tattered_and_rickety_dirty_smudged__d8f8554a-0b90-4b46-b084-48211a1fa1eb.png">
 
 "By the authority of Calson Wight, you are encroaching in private space. Quelch your burners, kips. We got you painted solid under company rails, so nothing greasy."
 
@@ -110,16 +111,12 @@ Left to their own devices, they've become known for a tendency to shake down pas
 For the more combat-ready crews, this severely limits your options for recourse and they know it. At least if they were pirates, you could assume that they'd want to keep your ship intact for requisition, but these guys don't give a fuck.
 
 Parlay is the only path forward…or is it?
-the variable: $canDiplomacy
 
 (if:$canDiplomacy is 1)[[DIPLOMACY]] (if:$canDiplomacy is 0)[ ~~DIPLOMACY~~]
 (if:$canEvasion is 1)[[EVASION]] (if:$canEvasion is 0)[ ~~EVASION~~]
 (if:$canBarter is 1)[[BARTER]] (if:$canBarter is 0)[ ~~BARTER~~]
 (if:$canRetreat is 1)[[RETREAT]] (if:$canRetreat is 0)[ ~~RETREAT~~]
 (if:$canThreaten is 1)[[THREATEN/AMBUSH]] (if:$canThreaten is 0)[ ~~THREATEN/AMBUSH~~]
-
-
-
 
 
 :: Consensus acheived {"position":"75,1525","size":"100,100"}
@@ -159,59 +156,85 @@ Your face contorts in puzzlement. Mud? Where'd these drifters find mud. But the 
 
 
 :: Crew 1 {"position":"425,0","size":"100,100"}
-(set:$name to "A Team")
+(set:$name to "Keytych Nomads")
 (set:$points to 0)
-(set:$p1strength to 15)
-(set:$canBarter to 1)
+(set:$p1strength to 10)
+(set:$canBarter to 0)
 (set:$canDiplomacy to 0)
 (set:$canEvasion to 1)
 (set:$canRetreat to 0)
-(set:$canThreaten to 1)
+(set:$canThreaten to 0)
+
+(set:$p2strength to 17)
+(set:$hasFood to 1)
+(set:$hasMental to 1)
+(set:$hasMaintenance to 1)
+(set:$hasNavigation to 1)
+(set:$hasLuck to 0)
 
 (go-to:"Gathered A Crew")
 
 
 :: Crew 2 {"position":"550,0","size":"100,100"}
-(set:$name to "B Team")
+(set:$name to "Normadox")
 (set:$points to 0)
-(set:$p1strength to 12)
-(set:$canBarter to 1)
+(set:$p1strength to 20)
+(set:$canBarter to 0)
 (set:$canDiplomacy to 1)
-(set:$canEvasion to 1)
+(set:$canEvasion to 0)
 (set:$canRetreat to 0)
 (set:$canThreaten to 0)
+
+(set:$p2strength to 10)
+(set:$hasFood to 1)
+(set:$hasMental to 0)
+(set:$hasMaintenance to 1)
+(set:$hasNavigation to 0)
+(set:$hasLuck to 0)
 
 
 (go-to:"Gathered A Crew")
 
 
 :: Crew 3 {"position":"675,0","size":"100,100"}
-(set:$name to "C Team")
+(set:$name to "Pay Streak")
 (set:$points to 0)
-(set:$p1strength to 13)
+(set:$p1strength to 15)
 (set:$canBarter to 0)
 (set:$canDiplomacy to 1)
-(set:$canEvasion to 1)
+(set:$canEvasion to 0)
 (set:$canRetreat to 0)
-(set:$canThreaten to 1)
+(set:$canThreaten to 0)
 
+(set:$p2strength to 7)
+(set:$hasFood to 0)
+(set:$hasMental to 1)
+(set:$hasMaintenance to 1)
+(set:$hasNavigation to 0)
+(set:$hasLuck to 0)
 
 
 (go-to:"Gathered A Crew")
 
 
 :: Crew 4 {"position":"800,25","size":"100,100"}
-(set:$name to "D Team")
+(set:$name to "The Pedagogues")
 (set:$points to 0)
-(set:$p1strength to 18)
+(set:$p1strength to 8)
 (set:$canBarter to 1)
 (set:$canDiplomacy to 0)
 (set:$canEvasion to 0)
 (set:$canRetreat to 0)
-(set:$canThreaten to 1)
+(set:$canThreaten to 0)
+
+(set:$p2strength to 12)
+(set:$hasFood to 1)
+(set:$hasMental to 0)
+(set:$hasMaintenance to 1)
+(set:$hasNavigation to 1)
+(set:$hasLuck to 0)
 
 (go-to:"Gathered A Crew")
-
 
 
 :: Crew debarks {"position":"350,1525","size":"100,100"}
@@ -257,7 +280,19 @@ These must be survivors from the previous mission…greed-fueled mutineers fatef
 
 
 :: Cycles on end {"position":"400,1200","size":"100,100"}
-Finally, after enduring cycles on end, comes the sight every longhauling drifter yearns to see: a flickering speck in the distance.
+(set: $diceroll to (random:1,20))
+(if: $diceroll < $p2strength)[(set:$curpoints to ($p2strength - $diceroll))]
+(set:$points to ($points + $curpoints))
+
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144746175380078733/intermatrixnaut_Bullets_of_Renown_Railgun_munitions_fc798363-2078-4dcc-b755-6ad44c0c30e0.png">
+
+(t8n: "rumble")[Rolling Dice...]
+
+(t8n: "blur")+(t8n-delay:1s)[(text-style: "outline")[(colour: #e4edab)[(text-size:2)[$diceroll]]]]
+
+(t8n: "blur")+(t8n-delay:3s)[You scored $curpoints points.]
+
+(t8n: "blur")+(t8n-delay:5s)[Finally, after enduring cycles on end, comes the sight every longhauling drifter yearns to see: a flickering speck in the distance.
 
 The speck grows into a swirling green orb, revealing itself to be a tumultuous gas planet, roiling with electric storms. Your crew gathers around the cockpit glass to silently behold your long-awaited destination.
 
@@ -270,11 +305,11 @@ Hidden in low orbit amidst the spectral haze, floats the fabled craft: the ancie
 You dive down toward it.
 
 [[continue...->State of disrepair]]
+]
 
 
 :: DIPLOMACY {"position":"275,550","size":"100,100"}
-
-<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144686055631630448/Diplomacy.jpg">
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144686055631630448/Diplomacy.jpg">
 
 Looks like some of you have some friendly affiliations onboard. While Cove Stalkers are normally pretty indiscriminate with their application of coercion, the one thing they do fear is bad blood traveling up the chain to Beshtalan power brokers.
 
@@ -308,9 +343,7 @@ Blood and viscera can be cleaned. A breached hull cannot.
 
 
 :: EVASION {"position":"425,550","size":"100,100"}
-
-<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144686758999633950/EVASION.jpg">
-
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144686758999633950/EVASION.jpg">
 
 If diplomacy isn't your strong suit, perhaps you have a seasoned pilot in the chair. Those that bear the Topography Society, Longhaulers, Expeditionary Society, Slash Patcher, or - best of all - a Saddler Racing League insignia - might have what it takes to outmaneuver this standoff.
 
@@ -370,9 +403,7 @@ The onlookers stand, weapons poised…hesitant to shoot or swipe lest they kill 
 
 
 :: Gathered A Crew {"position":"600,175","size":"100,100"}
-
-
-<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1143694069445439518/P3.png">
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1143694069445439518/P3.png">
 
 Over the last few cycles, you've gathered your crew ($name). A lean team of five to tackle the perils that undoubtedly stand between you and this prospective bounty.
 
@@ -385,8 +416,6 @@ The buzzer blares and the hatch opens, releasing you to lash straps and mount yo
 Now all that's left is to see how you fare.
 
 [[continue...->Packed Tight]]
-
-points: $points
 
 
 :: Go home {"position":"1200,1600","size":"100,100"}
@@ -421,26 +450,14 @@ Invigorated by the surprise prospect, you make your way back to your ship and th
 [[continue...->Back on ship]]
 
 
-:: Intro {"position":"125,350","size":"100,100"}
-<script>
-
-$('#sound-toggle').click(function() {
-	if(!window.sound_on){
-      window.audio_background.play();
-      $('#sound-toggle').text(" | 🔊")
-      window.sound_on = true;
-    } else {
-      window.audio_background.pause();
-      $('#sound-toggle').text(" | 🔈")
-      window.sound_on = false;
-    }
-});
-</script>
-
-<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142192925573390366/DrifterDesert.PNG">
+:: Intro {"position":"150,100","size":"100,100"}
+(set: $testhtml to '<div><b style="color: red;">hello</b></div>')
+(set: $name to ' ')
+(set: $hudhtml to '<div style="display: flex; justify-content: flex-end;"><span>$name | points: $points  | <b><a id="sound-toggle" onclick="window.toggleSound()"> 🔈</a></b><span></div>')
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142192925573390366/DrifterDesert.PNG">
 
 
-Welcome, drifters.<strong><a id='sound-toggle'> | sound 🔈</a></strong>
+Welcome, drifters.<strong><a id='sound-toggle' onclick='window.toggleSound()'> | sound 🔈</a></strong>
 
 A few cycles ago, many of you passed under the hatch of the Sowing Season and had the pleasure of trading chant with Duzi, the Bench's premiere keeper of tall tales.
 
@@ -506,8 +523,6 @@ Tools like the Ball Claw allow you to reach the deeper crevices and the Shriek a
 [[continue...->Pearls keep coming]]
 
 
-
-
 :: More docile crew {"position":"850,1850","size":"100,100"}
 Expecting a much more docile crew of explorers, the Roving Terror are taken off-guard by your payload-fueled fervor. There's too much at stake to allow your labors to be plucked from the sky and your crew expresses this with alarming brutality.
 
@@ -523,11 +538,13 @@ The hatch slams shut and the intrusive music fades as you gun the thrusters, Ben
 :: Mundane journey {"position":"425,875","size":"100,100"}
 Decacycles of empty space stand between you and your prize. You pray that your journey is mundane, but even mundanity has its own perils for a crew of five, pakt like sardines in a crushed tin box.
 
-[[FOOD]]
-[[MENTAL]]
-[[MAINTENANCE]]
-[[NAVIGATION/SPEED]]
-[[LUCK]]
+(if:$hasFood is 1)[[FOOD]](if:$hasFood is 0)[ ~~FOOD~~]
+(if:$hasMental is 1)[[MENTAL]](if:$hasMental is 0)[ ~~MENTAL~~]
+(if:$hasMaintenance is 1)[[MAINTENANCE]](if:$hasMaintenance is 0)[ ~~MAINTENANCE~~]
+(if:$hasNavigation is 1)[[NAVIGATION/SPEED]](if:$hasNavigation is 0)[ ~~NAVIGATION/SPEED~~]
+(if:$hasLuck is 1)[[LUCK]](if:$hasLuck is 0)[ ~~LUCK~~]
+
+
 
 
 :: NAVIGATION/SPEED {"position":"550,1000","size":"100,100"}
@@ -552,26 +569,8 @@ Sacks of pearls come out. Yields are compared. Wagers are settled. And celebrato
 [[continue...->Breaching the storm]]
 
 
-:: Only Survivor {"position":"275,350","size":"100,100"}
-<script>
-
-$('#sound-toggle').click(function() {
-	if(!window.sound_on){
-      window.audio_background.play();
-      $('#sound-toggle').text("🔊")
-      window.sound_on = true;
-    } else {
-      window.audio_background.pause();
-      $('#sound-toggle').text("🔈")
-      window.sound_on = false;
-    }
-});
-</script>
-
-
-<strong><a id='sound-toggle'>🔈</a></strong>
-<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142894157577326662/SCene2.png">
-
+:: Only Survivor {"position":"200,250","size":"100,100"}
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142894157577326662/SCene2.png">
 This lone drifter appeared to be his mission's only survivor. In his brief encounter with Duzi, he was reluctant to recount what truly happened, but he left behind the coordinates to the source of the V-Shale: an abandoned Surveyor Station…an Old World exploratory craft.
 
 If the coordinates are true, this could be the tip of all tips. Even a small amount of Vellum Shale would recoup the cost of travel with profits to spare. And the way this drifter talked, there should be enough to fill a whole cargo carriage.
@@ -583,9 +582,8 @@ But a quest of this caliber is no solo operation. You need a crew. A close-knit 
 [[continue...->Select Crew]]
 
 
-
 :: Packed Tight {"position":"725,300","size":"100,100"}
-<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142960521734262864/intermatrixnaut_Setting_has_a_spaceship_in_deepspace_crossing_a_3515f2be-2e07-4f53-88ff-8eb3ed75c5d0.png">
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142960521734262864/intermatrixnaut_Setting_has_a_spaceship_in_deepspace_crossing_a_3515f2be-2e07-4f53-88ff-8eb3ed75c5d0.png">
 
 Packed tight into your spacecraft, the course is plotted and the route quickly has you passing through the Faye Cloud - a field of dense gas suspended in space. The gas scrambles all scopes, preventing any communication, tracking, or computer-assisted navigation.
 
@@ -602,7 +600,6 @@ Your ship unceremoniously breaches the cloud. In an instant, the veil is lifted.
 As soon as the ship's sensors regain their clarity, a harsh blip abruptly cuts through the silence of the cabin. On the monitor blinks the last thing you want to see: two dots.
 
 [[continue...->Shiver runs]]
-points: $points
 
 
 :: Painted your target {"position":"325,1825","size":"100,100"}
@@ -626,9 +623,7 @@ But then, the radio crackles with a strange, barely intelligible message…
 
 
 :: RETREAT {"position":"600,550","size":"100,100"}
-
-<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144694748536377444/r2.jpg">
-
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144694748536377444/r2.jpg">
 
 For the rest of you, or those that couldn't scrounge enough cachet to squeeze through the blockade…you're all forced to retreat, rerouting out of Cove Stalker jurisdiction.
 
@@ -664,14 +659,29 @@ Some throw fists and one manages to crack a neck under heel, but it quickly beco
 
 
 :: Select Crew {"position":"350,125","size":"100,100"}
+(text-size: 2)[Choose Your Crew]
 
-[[Crew 1]]
+<div style="display: flex; justify-content: space-between;">
+<div>
+[[KeyTych->Crew 1]]
+<img height="200px" src="https://cdn.discordapp.com/attachments/1138475178012188682/1138577644942798959/SquareQuick_202387143537742.jpg" />
+</div>
+<div>
+[[Normadox->Crew 2]]
+<img height="200px" src="https://cdn.discordapp.com/attachments/1138475178012188682/1138794410826534912/KeTych-Nomads-Crew-Chart-export1.png" />
+</div>
+</div>
 
-[[Crew 2]]
-
-[[Crew 3]]
-
-[[Crew 4]]
+<div style="display: flex; justify-content: space-between;">
+<div>
+[[Pay Streak->Crew 3]]
+<img height="200px" src="https://cdn.discordapp.com/attachments/1138475178012188682/1139674180535726181/Pay_Streak_Team.png" />
+</div>
+<div>
+[[The Pedagogues->Crew 4]]
+<img height="200px" src="https://cdn.discordapp.com/attachments/1138475178012188682/1139358314522746911/image.png" />
+</div>
+</div>
 
 
 :: Shiver runs {"position":"875,400","size":"100,100"}
@@ -680,8 +690,7 @@ $('#five-tone').click(function() {
 	window.five_tone.play();
 });
 </script>
-
-<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1143255052287475742/intermatrixnaut_Setting_distinctive_five-tone_signal_chimes_ove_5e7ae654-6c2b-4054-848f-cbef8bdbcf92.png">
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1143255052287475742/intermatrixnaut_Setting_distinctive_five-tone_signal_chimes_ove_5e7ae654-6c2b-4054-848f-cbef8bdbcf92.png">
 
 A shiver runs down your collective spines, for you all know the true dynamics of space combat: close enough for the scopes, close enough to strike.
 
@@ -701,22 +710,26 @@ They've since become the go-to enforcers for Beshtalan corporations looking to s
 A distorted voice rasps over the radio:
 
 [[continue...->By the authority]]
-points: $points
 
 
 :: Some fared better {"position":"425,750","size":"100,100"}
 (set: $diceroll to (random:1,20))
-(if: $diceroll < $p1strength)[(set:$points to ($points + $p1strength) - $diceroll))]
+(if: $diceroll < $p1strength)[(set:$curpoints to ($p1strength - $diceroll))]
+(set:$points to ($points + $curpoints))
 
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144746175380078733/intermatrixnaut_Bullets_of_Renown_Railgun_munitions_fc798363-2078-4dcc-b755-6ad44c0c30e0.png">
 
-<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144746175380078733/intermatrixnaut_Bullets_of_Renown_Railgun_munitions_fc798363-2078-4dcc-b755-6ad44c0c30e0.png">
+(t8n: "rumble")[Rolling Dice...]
 
+(t8n: "blur")+(t8n-delay:1s)[(text-style: "outline")[(colour: #e4edab)[(text-size:2)[$diceroll]]]]
 
-While some of you fared better than others, the Cove Stalker gauntlet has been crossed. Those who had to reroute have lost precious time and resource bandwidth. Those who were able to squeeze through and keep the route, remain better positioned to tackle the next obstacle: the long, dark of The Void.
+(t8n: "blur")+(t8n-delay:3s)[You scored $curpoints points.]
+
+(t8n: "blur")+(t8n-delay:5s)[While some of you fared better than others, the Cove Stalker gauntlet has been crossed. Those who had to reroute have lost precious time and resource bandwidth. Those who were able to squeeze through and keep the route, remain better positioned to tackle the next obstacle: the long, dark of The Void.
 
 [[continue...->Mundane journey]]
-dice roll: $diceroll
-points: $points
+]
+
 
 
 :: State of disrepair {"position":"50,1325","size":"100,100"}
@@ -762,8 +775,7 @@ The race is on: harvest as much as you can before the runners of your sleigh get
 
 
 :: THREATEN/AMBUSH {"position":"750,550","size":"100,100"}
-
-<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144694173031731220/ta2.jpg">
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144694173031731220/ta2.jpg">
 
 It appears that a few of you, however, have a more aggressive option that no one else is quipt to attempt.
 
@@ -802,7 +814,6 @@ But the how and why are the last things on your mind as you gaze upon the scene,
 [[continue...->Covering the floor]]
 
 
-
 :: They're unarmed {"position":"350,1675","size":"100,100"}
 They're unarmed, but they rush you anyway, clawing with their hands, powered by a fearlessness that feels inhuman.
 
@@ -826,20 +837,34 @@ An explosive round from a roulette gun flings limbs in all directions, slapping 
 
 :: StoryScript [script]
 window.audio_background = new Audio('https://cdn.discordapp.com/attachments/1141853154707783770/1143704324766183444/Zypher-Pollux.mp3');
-window.audio_background.loop=true
+window.audio_background.loop = true;
 
 window.five_tone = new Audio('https://cdn.discordapp.com/attachments/1141853154707783770/1143267942507741345/Cove_Stalker_Signal_3.mp3');
 
+
+
 window.sound_on = false;
 
-:: StoryStylesheet [stylesheet]
 
+
+window.toggleSound = function () {
+	if(!window.sound_on){
+      window.audio_background.play();
+      $('#sound-toggle').text("🔊")
+      window.sound_on = true;
+    } else {
+      window.audio_background.pause();
+      $('#sound-toggle').text("🔈")
+      window.sound_on = false;
+    }
+}
+
+
+:: StoryStylesheet [stylesheet]
 tw-story {
 	background-color: #232320;
     font: 100% gt-pressura, ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
     font-size: 1.0em;
     line-height: 1.5em;
-  	padding: 5% 20%;
-} 
-
-
+  	padding: 1% 20%;
+}
