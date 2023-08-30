@@ -38,7 +38,7 @@ window.toggleSound = function () {
     }
 }
 </script><tw-tag name="StatusBar" color="red"></tw-tag><tw-tag name="Battle" color="red"></tw-tag><tw-tag name="Attributes" color="green"></tw-tag><tw-passagedata pid="1" name=" Will aid your work" tags="Battle Attributes" position="2025,125" size="100,100">(set: $diceroll to (random:1,20))
-(if: $diceroll &lt; $p3strength)[(set:$curpoints to ($p3strength - $diceroll))]
+(if: $diceroll &lt; $p3strength)[(set:$curpoints to ($p3strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
 
 Mechsuits, Hyperspec, and tools like grabbers, cutters, and bashers will aid your work.(if: $p3hasHyperspec is 1)[✔️](else:)[❌]
@@ -352,7 +352,7 @@ They charge with frenzied momentum - and as the mud drips away it reveals the va
 These must be survivors from the previous mission…greed-fueled mutineers fatefully left marooned. How they&#39;ve survived so long in this torrential hellscape eludes explanation, but it&#39;s clearly taken a toll on their minds and bodies, as evidenced by their incessant drive forward.
 
 [[continue...-&gt;They&#39;re unarmed]]</tw-passagedata><tw-passagedata pid="16" name="Cycles on end" tags="Battle" position="1550,900" size="100,100">(set: $diceroll to (random:1,20))
-(if: $diceroll &lt; $p2strength)[(set:$curpoints to ($p2strength - $diceroll))]
+(if: $diceroll &lt; $p2strength)[(set:$curpoints to ($p2strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
 
 &lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1144746175380078733/intermatrixnaut_Bullets_of_Renown_Railgun_munitions_fc798363-2078-4dcc-b755-6ad44c0c30e0.png&quot;&gt;
@@ -600,10 +600,9 @@ Your ship unceremoniously breaches the cloud. In an instant, the veil is lifted.
 As soon as the ship&#39;s sensors regain their clarity, a harsh blip abruptly cuts through the silence of the cabin. On the monitor blinks the last thing you want to see: two dots.
 
 [[continue...-&gt;Shiver runs]]</tw-passagedata><tw-passagedata pid="39" name="Painted your target" tags="Battle" position="2050,800" size="100,100">(set: $diceroll to (random:1,20))
-(if: $diceroll &lt; $p6strength)[(set:$curpoints to ($p6strength - $diceroll))]
+(if: $diceroll &lt; $p6strength)[(set:$curpoints to ($p6strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
 
-$hudhtml
 
 They painted your target, let you do the work, and have been lying in wait to purge the bloated belly of your post-mission ship.
 
@@ -620,7 +619,7 @@ But you don&#39;t know any of this until you hear the unmistakable THUNK of the 
 [[continue...-&gt;Roving Terror fearsome]]
 
 ]</tw-passagedata><tw-passagedata pid="40" name="Pearls keep coming" tags="Battle" position="2350,500" size="100,100">(set: $diceroll to (random:1,20))
-(if: $diceroll &lt; $p4strength)[(set:$curpoints to ($p4strength - $diceroll))]
+(if: $diceroll &lt; $p4strength)[(set:$curpoints to ($p4strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
 
 --&gt;&gt; PICTURE &lt;&lt;--
@@ -705,7 +704,7 @@ They&#39;ve since become the go-to enforcers for Beshtalan corporations looking 
 A distorted voice rasps over the radio:
 
 [[continue...-&gt;By the authority]]</tw-passagedata><tw-passagedata pid="46" name="Some fared better" tags="Battle" position="425,750" size="100,100">(set: $diceroll to (random:1,20))
-(if: $diceroll &lt; $p1strength)[(set:$curpoints to ($p1strength - $diceroll))]
+(if: $diceroll &lt; $p1strength)[(set:$curpoints to ($p1strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
 
 &lt;img width=&quot;100%&quot; src=&quot;https://cdn.discordapp.com/attachments/1141853154707783770/1144746175380078733/intermatrixnaut_Bullets_of_Renown_Railgun_munitions_fc798363-2078-4dcc-b755-6ad44c0c30e0.png&quot;&gt;
@@ -793,7 +792,7 @@ It&#39;s clear some sort of scrape broke out, but less clear is the reason why. 
 But the how and why are the last things on your mind as you gaze upon the scene, for there is something far more captivating than the carnage itself.
 
 [[continue...-&gt;Covering the floor]]</tw-passagedata><tw-passagedata pid="51" name="They&#39;re unarmed" tags="Battle" position="2075,650" size="100,100">(set: $diceroll to (random:1,20))
-(if: $diceroll &lt; $p5strength)[(set:$curpoints to ($p5strength - $diceroll))]
+(if: $diceroll &lt; $p5strength)[(set:$curpoints to ($p5strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
 
 They&#39;re unarmed, but they rush you anyway, clawing with their hands, powered by a fearlessness that feels inhuman.

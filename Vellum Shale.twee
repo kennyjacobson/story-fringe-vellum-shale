@@ -19,7 +19,7 @@ Vellum Shale
 
 :: \ Will aid your work [Battle Attributes] {"position":"2025,125","size":"100,100"}
 (set: $diceroll to (random:1,20))
-(if: $diceroll < $p3strength)[(set:$curpoints to ($p3strength - $diceroll))]
+(if: $diceroll < $p3strength)[(set:$curpoints to ($p3strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
 
 Mechsuits, Hyperspec, and tools like grabbers, cutters, and bashers will aid your work.(if: $p3hasHyperspec is 1)[✔️](else:)[❌]
@@ -393,7 +393,7 @@ These must be survivors from the previous mission…greed-fueled mutineers fatef
 
 :: Cycles on end [Battle] {"position":"1550,900","size":"100,100"}
 (set: $diceroll to (random:1,20))
-(if: $diceroll < $p2strength)[(set:$curpoints to ($p2strength - $diceroll))]
+(if: $diceroll < $p2strength)[(set:$curpoints to ($p2strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
 
 <img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144746175380078733/intermatrixnaut_Bullets_of_Renown_Railgun_munitions_fc798363-2078-4dcc-b755-6ad44c0c30e0.png">
@@ -733,10 +733,9 @@ As soon as the ship's sensors regain their clarity, a harsh blip abruptly cuts t
 
 :: Painted your target [Battle] {"position":"2050,800","size":"100,100"}
 (set: $diceroll to (random:1,20))
-(if: $diceroll < $p6strength)[(set:$curpoints to ($p6strength - $diceroll))]
+(if: $diceroll < $p6strength)[(set:$curpoints to ($p6strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
 
-$hudhtml
 
 They painted your target, let you do the work, and have been lying in wait to purge the bloated belly of your post-mission ship.
 
@@ -757,7 +756,7 @@ But you don't know any of this until you hear the unmistakable THUNK of the spea
 
 :: Pearls keep coming [Battle] {"position":"2350,500","size":"100,100"}
 (set: $diceroll to (random:1,20))
-(if: $diceroll < $p4strength)[(set:$curpoints to ($p4strength - $diceroll))]
+(if: $diceroll < $p4strength)[(set:$curpoints to ($p4strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
 
 -->> PICTURE <<--
@@ -866,7 +865,7 @@ A distorted voice rasps over the radio:
 
 :: Some fared better [Battle] {"position":"425,750","size":"100,100"}
 (set: $diceroll to (random:1,20))
-(if: $diceroll < $p1strength)[(set:$curpoints to ($p1strength - $diceroll))]
+(if: $diceroll < $p1strength)[(set:$curpoints to ($p1strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
 
 <img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144746175380078733/intermatrixnaut_Bullets_of_Renown_Railgun_munitions_fc798363-2078-4dcc-b755-6ad44c0c30e0.png">
@@ -974,7 +973,7 @@ But the how and why are the last things on your mind as you gaze upon the scene,
 
 :: They're unarmed [Battle] {"position":"2075,650","size":"100,100"}
 (set: $diceroll to (random:1,20))
-(if: $diceroll < $p5strength)[(set:$curpoints to ($p5strength - $diceroll))]
+(if: $diceroll < $p5strength)[(set:$curpoints to ($p5strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
 
 They're unarmed, but they rush you anyway, clawing with their hands, powered by a fearlessness that feels inhuman.
