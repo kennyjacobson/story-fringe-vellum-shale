@@ -587,7 +587,7 @@ Invigorated by the surprise prospect, you make your way back to your ship and th
 (set: $testhtml to '<div><b style="color: red;">hello</b></div>')
 (set: $name to ' ')
 (set: $hudhtml to '<div style="display: flex; justify-content: flex-end;"><span>$name | points: $points  | <b><a id="sound-toggle" onclick="window.toggleSound()"> 🔈</a></b><span></div>')
-$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1142192925573390366/DrifterDesert.PNG">
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1147298795940487188/intermatrixnaut_setting_is_the_void_of_space_asteroids_and_come_7a7d3274-f227-4ed7-9a90-655d05d96cd2.png">
 
 
 Welcome, drifters.<strong><a id='sound-toggle' onclick='window.toggleSound()'> | sound 🔈</a></strong>
