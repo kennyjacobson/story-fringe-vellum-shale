@@ -21,6 +21,7 @@ Vellum Shale
 (set: $diceroll to (random:1,20))
 (if: $diceroll < $p3strength)[(set:$curpoints to ($p3strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1146970615354499143/intermatrixnaut_infinite-hopelessness_Setting_is_a_lone-helmete_3aa10608-56ef-4951-9c03-522417f6f3b1.png">
 
 Mechsuits, Hyperspec, and tools like grabbers, cutters, and bashers will aid your work.(if: $p3hasHyperspec is 1)[✔️](else:)[❌]
 
@@ -395,8 +396,7 @@ These must be survivors from the previous mission…greed-fueled mutineers fatef
 (set: $diceroll to (random:1,20))
 (if: $diceroll < $p2strength)[(set:$curpoints to ($p2strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
-
-<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1144746175380078733/intermatrixnaut_Bullets_of_Renown_Railgun_munitions_fc798363-2078-4dcc-b755-6ad44c0c30e0.png">
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1146945658318766141/intermatrixnaut_planetary-footage_Setting_is_a_a_green_planet_g_2258084c-f859-4e3b-a343-f437e38592a3.png">
 
 (t8n: "rumble")[Rolling Dice...]
 
@@ -485,7 +485,7 @@ The finish line is in sight. It's ride or die now.
 
 
 :: Exhausted from battle {"position":"2700,825","size":"100,100"}
-$hudhtml
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1024527041351131207/1147007722634629170/kennyjacobson_robotic_space_suits_b22a5073-1a68-43cb-801a-b3c38d69c170.png">
 
 Exhausted from the battle, your crew collapses in relief, too tired to care that the walls have been painted with pirate blood.
 
@@ -542,6 +542,8 @@ Now all that's left is to see how you fare.
 
 :: Go home {"position":"2850,450","size":"100,100"}
 
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1146856482260910110/kennyjacobson_end_of_a_space_journey.png">
+
 Eventually, the flickering lights of the Bench appear in the distance, a beacon of hope in the darkness. Your pilot cracks a smile and knowing looks are exchanged.
 
 There's no need for words, not that any could express the utter relief and thrilling optimism you feel knowing how good that first mug is gonna taste when you return to the Sowing Season to regale Duzi with your success, pockets bulging with fresh cash.
@@ -552,7 +554,8 @@ Congratulations, $name, you scored $points points.
 
 
 :: Harvest begins {"position":"1875,100","size":"100,100"}
-$hudhtml
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1146967338193789028/intermatrixnaut_infinte-Setting_is_a_lone-helmeted-Drifter_a_mi_cac38adb-a05e-416b-9186-c3b2eceb1410.png
+">
 
 And so, the harvest begins. Using your ship as an EVA platform, you work your way through the labyrinth of masts and shale sheets.
 
@@ -643,9 +646,8 @@ Tools like the Ball Claw allow you to reach the deeper crevices and the Shriek a
 [[continue...->Pearls keep coming]]
 
 
-
 :: More docile crew {"position":"2575,825","size":"100,100"}
-$hudhtml
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1024527041351131207/1147008953054679070/kennyjacobson_with_a_satisfying_kick_the_last_space_robot_is_hu_0ac649a3-2d6b-46e5-a9aa-e0649fe2ea8c.png">
 
 Expecting a much more docile crew of explorers, the Roving Terror are taken off-guard by your payload-fueled fervor. There's too much at stake to allow your labors to be plucked from the sky and your crew expresses this with alarming brutality.
 
@@ -668,8 +670,6 @@ Decacycles of empty space stand between you and your prize. You pray that your j
 (if:$hasMaintenance is 1)[[MAINTENANCE]](if:$hasMaintenance is 0)[ ~~MAINTENANCE~~]
 (if:$hasNavigation is 1)[[NAVIGATION/SPEED]](if:$hasNavigation is 0)[ ~~NAVIGATION/SPEED~~]
 (if:$hasLuck is 1)[[LUCK]](if:$hasLuck is 0)[ ~~LUCK~~]
-
-
 
 
 :: NAVIGATION/SPEED {"position":"1250,750","size":"100,100"}
@@ -834,7 +834,6 @@ Some throw fists and one manages to crack a neck under heel, but it quickly beco
 </div>
 
 
-
 :: Shiver runs {"position":"875,400","size":"100,100"}
 <script>
 $('#five-tone').click(function() {
@@ -882,9 +881,8 @@ A distorted voice rasps over the radio:
 ]
 
 
-
 :: State of disrepair {"position":"1550,225","size":"100,100"}
-$hudhtml
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1146959619697164389/intermatrixnaut_Organic_in_its_design_full_of_flowing_lines_and_2346fbb9-efdc-46e3-9478-5b9de9f40afd.png">
 
 Even in its state of disrepair, battered by centuries of celestial wear, the station might just be the most beautiful thing you've ever seen…and that's not only because of the payload it represents.
 
@@ -1020,7 +1018,6 @@ window.toggleSound = function () {
       window.sound_on = false;
     }
 }
-
 
 :: StoryStylesheet [stylesheet]
 tw-story {
