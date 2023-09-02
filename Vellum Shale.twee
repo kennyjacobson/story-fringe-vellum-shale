@@ -133,7 +133,7 @@ Parlay is the only path forward…or is it?
 (if:$canThreaten is 1)[[THREATEN/AMBUSH]] (if:$canThreaten is 0)[ ~~THREATEN/AMBUSH~~]
 
 
-:: Consensus acheived [Attributes] {"position":"1700,350","size":"100,100"}
+:: Consensus acheived [Attributes] {"position":"1650,350","size":"100,100"}
 $hudhtml
 
 Ultimately, a consensus is achieved quickly. True leanmeat drifters that you are, you can't resist a tasty prospect.
@@ -469,8 +469,8 @@ Even retired Saddler's tend to keep a can of reactor juice in pocket and a dash 
 [[continue...->Some fared better]]
 
 
-:: Even RT crew members {"position":"1875,975","size":"100,100"}
-$hudhtml
+:: Even RT crew members [Imaged] {"position":"1875,975","size":"100,100"}
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1009836173755174912/1147400424945627166/kennyjacobson_night_time_large_antenna_inside_spaceship_1970s_p_7288880f-2377-4363-81b5-72b62ad245ee.png">
 
 And even if you've got Roving Terror members on your crew, there's no platform for diplomacy here. A signature of a Terror raid is the radio jammers they deploy, blasting abrasive music over your ship's comms.
 
@@ -542,7 +542,6 @@ Now all that's left is to see how you fare.
 
 
 :: Go home [Imaged] {"position":"2525,600","size":"100,100"}
-
 <img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1146856482260910110/kennyjacobson_end_of_a_space_journey.png">
 
 Eventually, the flickering lights of the Bench appear in the distance, a beacon of hope in the darkness. Your pilot cracks a smile and knowing looks are exchanged.
@@ -787,8 +786,8 @@ For the rest of you, or those that couldn't scrounge enough cachet to squeeze th
 [[continue...->Some fared better]]
 
 
-:: Roving Terror fearsome {"position":"1725,975","size":"100,100"}
-$hudhtml
+:: Roving Terror fearsome [Imaged] {"position":"1725,975","size":"100,100"}
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1009836173755174912/1147391291655721050/kennyjacobson_four_corporate_mercenary_soldiers_in_space_suits__312b730e-dfe2-4b02-9f68-6f3d27000fc0.png">
 
 The Roving Terror are perhaps the most fearsome and storied of the pirate groups that skulk The Fringe, known primarily for their uncanny ability to take down large freighters and tourist vessels with their large, organized fleets in the early days.
 
