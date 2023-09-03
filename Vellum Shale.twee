@@ -631,7 +631,7 @@ Those who brandish: Combustible Dark Ether House Slash Patcher League of Channel
 
 
 :: Mining veterans [Attributes] {"position":"2150,350","size":"100,100"}
-$hudhtml
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1147602031335460874/4.png">
 
 High Tox, Deepsatch, and Subsurface mining veterans find the work familiar and harvest pearls quickly.(if: $p4canHarvest is 1)[✔️](else:)[❌]
 
@@ -735,7 +735,7 @@ As soon as the ship's sensors regain their clarity, a harsh blip abruptly cuts t
 (set: $diceroll to (random:1,20))
 (if: $diceroll < $p6strength)[(set:$curpoints to ($p6strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
-<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1147349808475025499/spaceshipportal.png">
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1147585792630333500/PaintedTarget.png">
 
 They painted your target, let you do the work, and have been lying in wait to purge the bloated belly of your post-mission ship.
 
