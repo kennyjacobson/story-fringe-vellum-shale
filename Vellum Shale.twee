@@ -71,21 +71,9 @@ $hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1009836173
 
 Instinctively, blades come out - if you have them - and whether by the satisfying sweep of the straight blade or the hard-earned chew of sharp teeth, mutineers are halved and quartered.
 
-<div style="display:flex; justify-content:space-between">
-<img height="100px" src="https://compendium.fringedrifters.com/storage/r525.png">
-<img height="100px" src="https://compendium.fringedrifters.com/storage/r512.png">
-
-</div>
-
 A fiery blast from a Cream Steamer is perhaps ill advised - triggering another sprawling chain reaction of combustion, but the thick layer of mud that now covers all of you, protects you from the burn.
 
 For the rare few brandishing a death beam, the body-mounted capacitor can only flash for five ticks, but five ticks is more than enough time to turn biology into physics, atomizing muscle and bone alike and cutting a glassy line into the surface of the muck that stretches half a square long.
-
-<div style="display:flex; justify-content:space-between">
-<img height="100px" src="https://compendium.fringedrifters.com/storage/r506.png">
-<img height="100px" src="https://compendium.fringedrifters.com/storage/r510.png">
-
-</div>
 
 Even those only brandishing hooks and claws find it an easy task to cripple these emaciated fools.
 
@@ -675,8 +663,8 @@ Members of the: Saddler Racing League Man Earlie Expeditionary Society Longhaule
 [[continue...->Cycles on end]]
 
 
-:: Nothing visible remains {"position":"2025,825","size":"100,100"}
-$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1009836173755174912/1147746953774501898/kennyjacobson_dummy_b279ac0e-39ff-444d-a83a-4d84cb7b1b0d.png">
+:: Nothing visible remains [Imaged] {"position":"2025,825","size":"100,100"}
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1009836173755174912/1147761255147372584/kennyjacobson_bucket_of_pearls_covered_in_mud_and_muck_science__5e90427c-04a5-4e4c-9be6-c44e7847347c.png">
 
 Nothing visible remains of the shipwreck that served as your landing pad and just as your lander's runners are about to be consumed by the muck, the thrusters fire, sending a spray of clay and mud as the lander tears itself away from this cursed planet.
 
@@ -791,8 +779,8 @@ Roving Terror boarding tactics are a well-honed machine. Tether lines flung from
 [[continue...->Even RT crew members]]
 
 
-:: Saints of {"position":"1875,825","size":"100,100"}
-$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1009836173755174912/1147746953774501898/kennyjacobson_dummy_b279ac0e-39ff-444d-a83a-4d84cb7b1b0d.png">
+:: Saints of [Imaged] {"position":"1875,825","size":"100,100"}
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1147777400004935730/kennyjacobson_a_group_of_soldiers_in_hazard_suits_stand_in_the__67e90b7b-a076-4e09-a73f-2247dd07e189.png">
 
 …except for one crew…the Saints of the Round Power.
 
