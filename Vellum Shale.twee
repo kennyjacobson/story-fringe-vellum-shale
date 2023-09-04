@@ -739,7 +739,7 @@ But you don't know any of this until you hear the unmistakable THUNK of the spea
 (set: $diceroll to (random:1,20))
 (if: $diceroll < $p4strength)[(set:$curpoints to ($p4strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
-<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1148075267642896444/kennyjacobson_men_gathering_alien_pearls_mud_covered_hazmat_sui_74501c3f-197e-436d-861d-c033477f928a.png">
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1148075267269607454/kennyjacobson_men_gathering_alien_pearls_mud_covered_hazmat_sui_79b3c9b2-206e-4c6f-9d82-ebbac9b91f8c.png">
 (t8n: "rumble")[Rolling Dice...]
 (t8n: "blur")+(t8n-delay:1s)[(text-style: "outline")[(colour: #e4edab)[(text-size:2)[$diceroll]]]]
 (t8n: "blur")+(t8n-delay:3s)[You scored $curpoints points.]
@@ -918,8 +918,8 @@ Too quick a target to paint, the pirate jets past the Rackworms and before the t
 [[continue...->Some fared better]]
 
 
-:: The harvest {"position":"1750,100","size":"100,100"}
-$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1009836173755174912/1147746953774501898/kennyjacobson_dummy_b279ac0e-39ff-444d-a83a-4d84cb7b1b0d.png">
+:: The harvest [Imaged] {"position":"1750,100","size":"100,100"}
+$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1148367356272312320/intermatrixnaut_demasticaed_erosionwave_explosion_shrapnel_corr_0051b0e3-ae78-48c9-b671-0b877ae727a9.png">
 
 During the harvest, one of your crew drifts past the exploded hole in the side of the Surveryor Station. Succumbing to curiosity, they float closer to peer inside.
 
