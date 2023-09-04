@@ -943,11 +943,11 @@ But the how and why are the last things on your mind as you gaze upon the scene,
 [[continue...->Covering the floor]]
 
 
-:: They're unarmed [Battle] {"position":"1575,825","size":"100,100"}
+:: They're unarmed [Battle Imaged] {"position":"1575,825","size":"100,100"}
 (set: $diceroll to (random:1,20))
 (if: $diceroll < $p5strength)[(set:$curpoints to ($p5strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
-<img width="100%" src="https://cdn.discordapp.com/attachments/1009836173755174912/1147746953774501898/kennyjacobson_dummy_b279ac0e-39ff-444d-a83a-4d84cb7b1b0d.png">
+<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1148064920882126891/kennyjacobson_mud_covered_man_dark_helment_space_ship_interior__655bd60c-882c-44f0-8f98-a0fc7c5037ac.png">
 
 They're unarmed, but they rush you anyway, clawing with their hands, powered by a fearlessness that feels inhuman.
 
