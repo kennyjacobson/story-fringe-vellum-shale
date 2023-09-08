@@ -360,8 +360,8 @@ The small blaze flickers for half a second before it ERUPTS into an explosion of
 [[continue...->Fire dissipates]]
 
 
-:: Crewmate wrests free {"position":"2025,675","size":"100,100"}
-$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1009836173755174912/1147746953774501898/kennyjacobson_dummy_b279ac0e-39ff-444d-a83a-4d84cb7b1b0d.png">
+:: Crewmate wrests free [Imaged] {"position":"2025,675","size":"100,100"}
+$hudhtml<img width="100%" src="https://media.discordapp.net/attachments/1141853154707783770/1149730780671651880/kennyjacobson_hazmat_soldier_being_attacked_by_zombie_in_quicks_6f2e0ef1-2843-4788-8edb-af92919d99e0.png?width=1440&height=484">
 
 Eventually your crewmate wrests free of the attack and rises above the surface of the mud, staggering back to catch their breath.
 
@@ -490,8 +490,8 @@ If you have graduates of the Borsh Conservatory of Gastrocraft or anyone profici
 [[continue...->Cycles on end]]
 
 
-:: Fire dissipates {"position":"1875,675","size":"100,100"}
-$hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1009836173755174912/1147746953774501898/kennyjacobson_dummy_b279ac0e-39ff-444d-a83a-4d84cb7b1b0d.png">
+:: Fire dissipates [Imaged] {"position":"1875,675","size":"100,100"}
+$hudhtml<img width="100%" src="https://media.discordapp.net/attachments/1141853154707783770/1149731145936814100/kennyjacobson_hazmat_soldier_being_attacked_by_zombie_in_quicks_3714b5d3-7795-4512-842a-09ad25eae28f.png?width=1440&height=484">
 
 Fortunately the fire quickly dissipates as the gas burns off, sending the blaze burning upward in an arcing column, reaching toward the heavens.
 
