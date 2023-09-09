@@ -66,16 +66,16 @@ But on the [[other hand->Consensus acheived]], a longhaul passage of this calibe
 Standard bog pearls would be one thing, but this giant, blue variant is likely indigenous to this far-flung planet. Your harvest might be the only cache ever pulled and a quick dip down could effectively double your yield.
 
 
-:: Blades come out [Imaged] {"position":"1725,825","size":"100,100"}
+:: Blades come out [Imaged Attributes] {"position":"1725,825","size":"100,100"}
 $hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1141853154707783770/1147947055659094026/kennyjacobson_three_hazmat_soldiers_fighting_with_sword_gun_and_98a2650d-1ea6-4b56-8e05-794768064176.png">
 
-Instinctively, blades come out - if you have them - and whether by the satisfying sweep of the straight blade or the hard-earned chew of sharp teeth, mutineers are halved and quartered.
+Instinctively, blades come out - if you have them - and whether by the satisfying sweep of the straight blade or the hard-earned chew of sharp teeth, mutineers are halved and quartered. (if: $p5hasCombat is 1)[✔️](else:)[❌]
 
 A fiery blast from a Cream Steamer is perhaps ill advised - triggering another sprawling chain reaction of combustion, but the thick layer of mud that now covers all of you, protects you from the burn.
 
 For the rare few brandishing a death beam, the body-mounted capacitor can only flash for five ticks, but five ticks is more than enough time to turn biology into physics, atomizing muscle and bone alike and cutting a glassy line into the surface of the muck that stretches half a square long.
 
-Even those only brandishing hooks and claws find it an easy task to cripple these emaciated fools.
+Even those only brandishing hooks and claws find it an easy task to cripple these emaciated fools. (if: $p5canEscape is 1)[✔️](else:)[❌]
 
 [[continue...->Saints of]]
 
@@ -126,12 +126,6 @@ For a moment, fortune seems to favor the greedy as the eye of a continental hurr
 Storms or no, atmospheric entry is never a peaceful thing. Even after you've racked scores of entries, the shake and rattle can make even the most seasoned of drifters' bones tremor with the flickering thought that this might be their last.
 
 But despite the tumult, you pull through, trusting your scopes to lead you to the site.
-
-<div style="display:flex; justify-content:space-between">
-<img height="100px" src="https://compendium.fringedrifters.com/storage/yn1S6PldtuKWgl1PbRW13J1OQaPbwbtDzDC6QXVi.png">
-<img height="100px" src="https://compendium.fringedrifters.com/storage/AePf2WDba1H1IqcPZAJnyzDGBoiurariRGJfI0Re.png">
-
-</div>
 
 Those who wear the Wings badge of atmospheric pilots are able to command the craft better than most and Topography Society members keep you on course, despite the chaotic weather. (if: $p4hasNavigation is 1)[✔️](else:)[❌]
 
@@ -418,22 +412,22 @@ But for those who don't have the luxury of influence or camaraderie with these g
 [[continue...->Some fared better]]
 
 
-:: EVA-combat specialists [Imaged] {"position":"2025,975","size":"100,100"}
+:: EVA-combat specialists [Imaged Attributes] {"position":"2025,975","size":"100,100"}
 $hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1009836173755174912/1147309946870968361/kennyjacobson_space_soldiers_with_robot_like_space_suits_huddle_3f2ab133-65cd-438e-8b84-1be720f21eb2.png">
 
-Any ''EVA-combat specialists'' on your crew leap to action, putting up a strong defensive front. The ''bombshots'' are back in business, picking off scooters before they can send their crabs down the line.
+Any EVA-combat specialists on your crew leap to action, putting up a strong defensive front. The bombshots are back in business, picking off scooters before they can send their crabs down the line.
 
-''Mech suits'' facilitate spacewalk agility allowing you to go toe-to-toe with the parasitic attackers latching onto your chassis.
+Mech suits facilitate spacewalk agility allowing you to go toe-to-toe with the parasitic attackers latching onto your chassis.
 
-''Hull-hooks'' are the perfect tool to sever cables and prod them away…and the advanced targeting system housed in the ''Trailmaker helmet'' paints floating targets with automated precision.
+Hull-hooks are the perfect tool to sever cables and prod them away…and the advanced targeting system housed in the Trailmaker helmet paints floating targets with automated precision. (if: $p6hasCombat is 1)[✔️](else:)[❌]
 
-Some of you have enough defensive power to beat them back.
+Some of you have enough defensive power to beat them back. (if: $p6hasDefense is 1)[✔️](else:)[❌]
 
 But other crews ultimately aren't quipt to thwart the boarding party and are forced to determine their fate indoors. And once the pirates get on board, the dynamics of the scrape fundamentally shift.
 
 Blood and viscera can be cleaned. A breached hull cannot.
 
-''Blades and bludgeoning tools'' become the weapons of choice and the cramped interior of your ship becomes a wall-to-wall bloodbath.
+Blades and bludgeoning tools become the weapons of choice and the cramped interior of your ship becomes a wall-to-wall bloodbath.
 
 [[continue...->More docile crew]]
 
@@ -450,12 +444,12 @@ Even retired Saddler's tend to keep a can of reactor juice in pocket and a dash 
 [[continue...->Some fared better]]
 
 
-:: Even RT crew members [Imaged] {"position":"1875,975","size":"100,100"}
+:: Even RT crew members [Imaged Attributes] {"position":"1875,975","size":"100,100"}
 $hudhtml<img width="100%" src="https://cdn.discordapp.com/attachments/1009836173755174912/1147400424945627166/kennyjacobson_night_time_large_antenna_inside_spaceship_1970s_p_7288880f-2377-4363-81b5-72b62ad245ee.png">
 
 And even if you've got Roving Terror members on your crew, there's no platform for diplomacy here. A signature of a Terror raid is the radio jammers they deploy, blasting abrasive music over your ship's comms.
 
-But if you've got pirates or former pirates in tow, what they can offer is intelligence. They know the routine and how to best combat it.
+But if you've got pirates or former pirates in tow, what they can offer is intelligence. They know the routine and how to best combat it. (if: $p6hasIntelligence is 1)[✔️](else:)[❌]
 
 A pivotal distinction from your previous Cove Stalker encounter is that you can rest assured that the pirates want to keep your ship intact. It's just a matter of preventing them from taking over…
 
@@ -490,14 +484,14 @@ If you have graduates of the Borsh Conservatory of Gastrocraft or anyone profici
 [[continue...->Cycles on end]]
 
 
-:: Fire dissipates [Imaged] {"position":"1875,675","size":"100,100"}
+:: Fire dissipates [Imaged Attributes] {"position":"1875,675","size":"100,100"}
 $hudhtml<img width="100%" src="https://media.discordapp.net/attachments/1141853154707783770/1149731145936814100/kennyjacobson_hazmat_soldier_being_attacked_by_zombie_in_quicks_3714b5d3-7795-4512-842a-09ad25eae28f.png?width=1440&height=484">
 
 Fortunately the fire quickly dissipates as the gas burns off, sending the blaze burning upward in an arcing column, reaching toward the heavens.
 
 Your crew frantically scans your surroundings for signs of the threat, but the churning gas makes visibility beyond a few meters impossible…though even those with hyperspec glass aren't picking up anything above the surface of the muck.
 
-And when the hyperspecced finally turn their gaze downward, it's already too late.
+And when the hyperspecced finally turn their gaze downward, it's already too late. (if: $p5hasHyperspec is 1)[✔️](else:)[❌]
 
 Suddenly one of you is pulled into the muck, sucked into a scrappy grapple. The muck churns as a desperate fight for survival takes place beneath its surface.
 
@@ -939,7 +933,7 @@ But the how and why are the last things on your mind as you gaze upon the scene,
 [[continue...->Covering the floor]]
 
 
-:: They're unarmed [Battle Imaged] {"position":"1575,825","size":"100,100"}
+:: They're unarmed [Battle Imaged Attributes] {"position":"1575,825","size":"100,100"}
 (set: $diceroll to (random:1,20))
 (if: $diceroll < $p5strength)[(set:$curpoints to ($p5strength - $diceroll))](else:)[(set:$curpoints to 0)]
 (set:$points to ($points + $curpoints))
