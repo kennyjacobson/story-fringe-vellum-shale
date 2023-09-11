@@ -523,9 +523,25 @@ Eventually, the flickering lights of the Bench appear in the distance, a beacon 
 
 There's no need for words, not that any could express the utter relief and thrilling optimism you feel knowing how good that first mug is gonna taste when you return to the Sowing Season to regale Duzi with your success, pockets bulging with fresh cash.
 
-THE END.
+(t8n: "blur")+(t8n-delay:2s)[THE END.]
 
-Congratulations, $name, you scored $points points.
+(t8n: "blur")+(t8n-delay:4s)[Congratulations, $name, you scored $points points.]
+
+(t8n: "slide-up")+(transition-time: 14s)[Credits:
+
+Story: Chris Caldwell
+Lead Artist and Prompt Engineer: intermatrixnaut 
+Artist and Prompt Engineer: @Frendsen | THE FRINGE
+Artist and Prompt Engineer: kennyjacobson
+Sound Designer: @Frendsen | THE FRINGE
+Programmer: kennyjacobson
+Game Mechanics and Spreadsheets: Brice Budke
+Fringe Director: Zeek Earl
+
+The Fringe is a new sci fi universe.  Powered by a global community you can be a part of... (<a href="https://www.fringedrifters.com/" target="_blank">site</a> | <a href="https://www.instagram.com/fringedrifters/" targer="_blank">instagram</a>)
+]
+
+
 
 
 :: Harvest begins [Imaged] {"position":"1225,1175","size":"100,100"}
@@ -991,4 +1007,13 @@ tw-story {
     font-size: 1.0em;
     line-height: 1.5em;
   	padding: 1% 20%;
+}
+
+tw-passage a {
+	color: #4169E1;
+	font-weight: 700;
+	text-decoration: none;
+}
+tw-passage a:hover {
+	color: #00bfff;
 }
